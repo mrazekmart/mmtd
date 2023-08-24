@@ -1,15 +1,17 @@
 "use client"
 
 import React, {useEffect, useState} from "react";
-import {initializeThreeGrid} from "./MMTDGameInitializer";
+import {initializeThreeGrid} from "@app/mmtdgame/MMTDGameInitializer";
+import {MMWaveManager} from "@app/mmtdgame/waves/MMWaveManager";
+import {MMBuilderMode} from "@app/mmtdgame/builder/MMBuilderMode";
 
 const MMTDGame: React.FC = () => {
 
     const [showTowerList, setShowTowerList] = useState(false);
 
     const handleTowerClick = (towerType: number) => {
-        // MMBuilderMode.getInstance().turnOn();
-        // MMBuilderMode.getInstance().towerToPlaceType = towerType;
+        MMBuilderMode.getInstance().turnOn();
+        MMBuilderMode.getInstance().towerToPlaceType = towerType;
     };
 
     useEffect(() => {
@@ -17,12 +19,12 @@ const MMTDGame: React.FC = () => {
     }, []);
 
     const handleNextWaveButton = () => {
-        // MMWaveManager.getInstance().nextWave();
+        MMWaveManager.getInstance().nextWave();
     }
 
     const placeTowersButton = () => {
         setShowTowerList(!showTowerList);
-        // MMBuilderMode.getInstance().turnOff();
+        MMBuilderMode.getInstance().turnOff();
     }
 
     return (
