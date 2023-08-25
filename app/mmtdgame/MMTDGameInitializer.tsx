@@ -1,6 +1,7 @@
 "use client"
 
 import * as THREE from 'three';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import {MMGridManager} from "./grid/MMGridManager";
 import {fetchMMGrid} from "./grid/MMMapLoader";
 import {MMPathFinder} from "./grid/pathfinding/MMPathFinder";
@@ -12,15 +13,17 @@ import {MMBuilderMode} from "./builder/MMBuilderMode";
 import {MMProjectileManager} from "@app/mmtdgame/gameObjects/projectiles/MMProjectileManager";
 import {MMGameObjectsManager} from "@app/mmtdgame/gameObjects/mapgameobject/MMGameObjectsManager";
 
+import Stats from 'stats.js'
 
-export const CANVAS_WIDTH = 2560;
-export const CANVAS_HEIGHT = 1332;
+export let CANVAS_WIDTH = window.innerWidth;
+export let CANVAS_HEIGHT = window.innerHeight;
 export const GRID_SIZE_WIDTH = 32;
 export const GRID_SIZE_HEIGHT = 18;
 
 export const CELL_WIDTH = CANVAS_WIDTH / GRID_SIZE_WIDTH;
 export const CELL_HEIGHT = CANVAS_HEIGHT / GRID_SIZE_HEIGHT;
 
+let tempLastWindowWidth = window.innerWidth;
 
 export function initializeThreeGrid(containerID: string): void {
     const scene: THREE.Scene = MMTDSceneManager.getInstance().scene;
@@ -32,15 +35,20 @@ export function initializeThreeGrid(containerID: string): void {
     const cellWidth = CELL_WIDTH;
     const cellHeight = CELL_HEIGHT;
 
+    var stats = new Stats();
+    stats.showPanel( 1 ); // 0: fps, 1: ms, 2: mb, 3+: custom
+    document.body.appendChild( stats.dom );
+
+
     const camera = new THREE.PerspectiveCamera(75, canvasWidth / canvasHeight, 0.1, 1000);
     camera.position.z = 1000;
     camera.lookAt(new THREE.Vector3(0, 0, 0));
 
-
     const renderer: THREE.WebGLRenderer = new THREE.WebGLRenderer({antialias: true});
     renderer.setSize(canvasWidth, canvasHeight);
     document.getElementById(containerID)!.appendChild(renderer.domElement);
-
+    
+    // const controls = new OrbitControls(camera, renderer.domElement)
 
     const raycaster = new THREE.Raycaster();
     const mouse = new THREE.Vector2();
@@ -92,18 +100,31 @@ export function initializeThreeGrid(containerID: string): void {
 
     // resize, maybe some day
     //
-    // window.addEventListener('resize', () => {
-    //     let width = window.innerWidth;
-    //     let height = window.innerHeight;
-    //     renderer.setSize(width, height);
-    //     camera.aspect = width / height;
-    //     camera.updateProjectionMatrix();
-    // });
+    window.addEventListener('resize', () => {
+        // let width = window.innerWidth;
+        // let height = window.innerHeight;
+        // renderer.setSize(width, height);
+        // camera.aspect = width / height;
+        // camera.updateProjectionMatrix();
+
+        // CANVAS_WIDTH = window.innerWidth;
+        // CANVAS_HEIGHT = window.innerHeight;
+
+        // Keep aspect ratio
+        camera.aspect = window.innerWidth / window.innerHeight;
+        renderer.setSize(window.innerWidth, window.innerHeight)
+        camera.updateProjectionMatrix()
+
+        camera.position.x += (tempLastWindowWidth - window.innerWidth) / 4;
+        tempLastWindowWidth = window.innerWidth;
+    });
     document.addEventListener('click', onClick);
 
 
     let lastTime: number | undefined;
     const animate = (currentTime: number) => {
+        stats.begin();
+
         if (!lastTime) {
             lastTime = currentTime;
         }
@@ -114,6 +135,8 @@ export function initializeThreeGrid(containerID: string): void {
         update(deltaTime);
 
         renderer.render(scene, camera);
+
+        stats.end();
 
         requestAnimationFrame(animate);
     };
