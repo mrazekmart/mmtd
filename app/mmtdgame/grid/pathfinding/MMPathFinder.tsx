@@ -67,9 +67,6 @@ export class MMPathFinder {
                     {
                         x: cell.gridPosition.x,
                         y: cell.gridPosition.y,
-                        g: 0,
-                        h: 0,
-                        f: 0,
                         walkable: cell.gridMesh.walkable,
                         npcWalkable: cell.gridMesh.npcWalkable,
                         center: new Vector3(
@@ -218,7 +215,7 @@ export class MMPathFinder {
                 if (!openList.includes(neighbor) || tentative_g < gValues.get(neighbor)!) {
                     parents.set(neighbor, currentNode);
                     gValues.set(neighbor, tentative_g);
-                    fValues.set(neighbor, tentative_g);  // Since h is always 0, f is equal to g
+                    fValues.set(neighbor, tentative_g);
 
                     if (!openList.includes(neighbor)) {
                         openList.push(neighbor);
@@ -302,6 +299,7 @@ export class MMPathFinder {
 
         while (currentNode) {
             if (visited.has(currentNode)) {
+                console.error("Pathfinding error: Cycle detected in path.");
                 break;
             }
 
@@ -316,9 +314,6 @@ export class MMPathFinder {
 export type MMNode = {
     x: number;
     y: number;
-    g: number;
-    h: number;
-    f: number;
     walkable: boolean;
     npcWalkable: boolean;
     parent?: MMNode;

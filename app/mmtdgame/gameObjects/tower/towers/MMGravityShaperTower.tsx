@@ -1,12 +1,13 @@
 import {MMATower} from "../MMATower";
-import {Vector2, Vector3} from "three";
 import * as THREE from "three";
+import {Vector2, Vector3} from "three";
 import {MMProjectileManager, MMProjectileType} from "../../projectiles/MMProjectileManager";
 
 export class MMGravityShaperTower extends MMATower {
 
     weaponFireRate: number = 0.2; // shots per sec
     timeToShoot: number = 1 / this.weaponFireRate;
+    currentTimeToShoot: number = this.timeToShoot;
 
     constructor(gridPosition: Vector2, position: Vector3) {
         super();
