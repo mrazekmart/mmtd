@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 import {Vector2, Vector3} from 'three';
-import {GRID_SIZE_HEIGHT, GRID_SIZE_WIDTH} from "../MMTDGameInitializer";
+import {GRID_SIZE_HEIGHT, GRID_SIZE_WIDTH} from "./MMGridManager";
 import {MMGridMesh, MMGridType} from "./MMGridMesh";
 
 

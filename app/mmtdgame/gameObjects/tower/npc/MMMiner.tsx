@@ -4,7 +4,6 @@ import {Vector3} from "three";
 import {MMNode} from "@app/mmtdgame/grid/pathfinding/MMPathFinder";
 import {MMGridType} from "@app/mmtdgame/grid/MMGridMesh";
 import {MMMapGold} from "@app/mmtdgame/gameObjects/mapgameobject/mapgameobjects/MMMapGold";
-import {CELL_HEIGHT} from "@app/mmtdgame/MMTDGameInitializer";
 import {MMEconomyManager} from "@app/mmtdgame/economy/MMEconomyManager";
 import Game from "@app/mmtdgame/MMTDGame";
 
@@ -28,9 +27,6 @@ export class MMMiner extends MMAGameObject {
     maxGoldStored: number = 40;
 
     isGoingHome: boolean = false
-
-    // mmGameObjectManager = MMGameObjectsManager.getInstance();
-    // mmSceneManager = MMTDSceneManager.getInstance();
 
     constructor(grid: THREE.Vector2, position: THREE.Vector3) {
         super();
@@ -71,8 +67,9 @@ export class MMMiner extends MMAGameObject {
         }
 
         const closestNodePosition: Vector3 = this.path[this.currentPathNode].center;
+        const cellHeight = Game.managers.grid.getCellSize().y;
 
-        if (this.mesh.position.distanceTo(closestNodePosition) < CELL_HEIGHT / 2) {
+        if (this.mesh.position.distanceTo(closestNodePosition) < cellHeight / 2) {
             if (this.isGoingHome) {
                 this.currentPathNode--;
             } else {

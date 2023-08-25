@@ -1,7 +1,6 @@
 import * as THREE from "three";
 import {Vector3} from "three";
-import {MMNode, MMPathFinder} from "../../grid/pathfinding/MMPathFinder";
-import {CELL_HEIGHT} from "../../MMTDGameInitializer";
+import {MMNode} from "../../grid/pathfinding/MMPathFinder";
 import {MMAGameObject} from "../MMAGameObject";
 import Game from "@app/mmtdgame/MMTDGame";
 
@@ -77,7 +76,9 @@ export abstract class MMAEnemy extends MMAGameObject {
         const enemyPosition: Vector3 = this.mesh.position;
         const closestNodePosition: Vector3 = this.path[0].center;
 
-        if (enemyPosition.distanceTo(closestNodePosition) < CELL_HEIGHT / 2) {
+        const cellHeight = Game.managers.grid.getCellSize().y;
+
+        if (enemyPosition.distanceTo(closestNodePosition) < cellHeight / 2) {
             this.path.shift();
             return;
         }

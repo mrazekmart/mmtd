@@ -1,8 +1,8 @@
 import {MMGridType} from "../MMGridMesh";
 import {Vector3} from "three";
-import {CELL_HEIGHT, CELL_WIDTH, GRID_SIZE_HEIGHT, GRID_SIZE_WIDTH} from "../../MMTDGameInitializer";
 import {MMGridCell} from "../MMGridCell";
 import {gridPositionFromVector} from "../../util/MMMathUtil";
+import Game from "@app/mmtdgame/MMTDGame";
 
 /**
  * The MMPathFinder class provides functionalities to find the shortest path
@@ -60,6 +60,9 @@ export class MMPathFinder {
         let startNode: MMNode = {} as any;
         let endNode: MMNode = {} as any;
 
+        const cellSize = Game.managers.grid.getCellSize();
+        const gridSize = Game.managers.grid.getGridSize();
+
         grid.forEach(row => {
             let currentRow: MMNode[] = [];
             row.forEach(cell => {
@@ -70,8 +73,8 @@ export class MMPathFinder {
                         walkable: cell.gridMesh.walkable,
                         npcWalkable: cell.gridMesh.npcWalkable,
                         center: new Vector3(
-                            cell.gridPosition.x * CELL_WIDTH - (GRID_SIZE_WIDTH * CELL_WIDTH) / 2 + CELL_WIDTH / 2,
-                            -cell.gridPosition.y * CELL_HEIGHT + (GRID_SIZE_HEIGHT * CELL_HEIGHT) / 2 - CELL_HEIGHT / 2,
+                            cell.gridPosition.x * cellSize.x - (gridSize.x * cellSize.x) / 2 + cellSize.x / 2,
+                            -cell.gridPosition.y * cellSize.y + (gridSize.y * cellSize.y) / 2 - cellSize.y / 2,
                             0),
                         type: cell.gridMesh.gridType,
                     };

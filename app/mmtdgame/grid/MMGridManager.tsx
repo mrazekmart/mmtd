@@ -5,17 +5,27 @@ import {gridPositionFromVector} from "../util/MMMathUtil";
 import {MMGridType} from "./MMGridMesh";
 import Game from "@app/mmtdgame/MMTDGame";
 
+export const GRID_SIZE_WIDTH = 32;
+export const GRID_SIZE_HEIGHT = 18;
+
 export class MMGridManager {
-    gridSize!: Vector2;
-    cellSize!: Vector2;
+    gridSize: Vector2 = new Vector2(GRID_SIZE_WIDTH, GRID_SIZE_HEIGHT);
     grid!: MMGridCell[][];
 
-    constructor() {
+    constructor() {}
+
+    getGridSize(): Vector2 {
+        return this.gridSize.clone();
     }
 
-    build(gridSize: Vector2, cellSize: Vector2, grid: MMGridCell[][]) {
-        this.gridSize = gridSize;
-        this.cellSize = cellSize;
+    getCellSize(): Vector2 {
+        return new Vector2(
+            Math.round(Game.canvasSize.width / this.gridSize.x),
+            Math.round(Game.canvasSize.height / this.gridSize.y)
+        );
+    }
+
+    build(grid: MMGridCell[][]) {
         this.grid = grid;
     }
 
