@@ -6,7 +6,7 @@ export class MMGameObjectsManager {
 
     goldObjects: MMMapGold[] = [];
 
-    private constructor() {
+    constructor() {
     }
 
     public static getInstance(): MMGameObjectsManager {

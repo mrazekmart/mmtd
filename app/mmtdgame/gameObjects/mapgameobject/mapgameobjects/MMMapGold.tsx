@@ -1,11 +1,8 @@
 import {MMAGameObject} from "@app/mmtdgame/gameObjects/MMAGameObject";
 import * as THREE from "three";
 import {Vector2, Vector3} from "three";
-import {MMTDSceneManager} from "@app/mmtdgame/MMTDSceneManager";
-import {MMGameObjectsManager} from "@app/mmtdgame/gameObjects/mapgameobject/MMGameObjectsManager";
-import {MMGridManager} from "@app/mmtdgame/grid/MMGridManager";
 import {MMGridType} from "@app/mmtdgame/grid/MMGridMesh";
-import {MMPathFinder} from "@app/mmtdgame/grid/pathfinding/MMPathFinder";
+import Game from "@app/mmtdgame/MMTDGame";
 
 export class MMMapGold extends MMAGameObject {
 
@@ -31,19 +28,19 @@ export class MMMapGold extends MMAGameObject {
     }
 
     addMeToScene() {
-        MMTDSceneManager.getInstance().addToScene(this.mesh);
+        Game.managers.scene.addToScene(this.mesh);
     }
 
     removeMeFromScene() {
-        MMTDSceneManager.getInstance().removeFromScene(this.mesh);
+        Game.managers.scene.removeFromScene(this.mesh);
     }
 
     destroy() {
         this.removeMeFromScene();
         this.mesh.geometry.dispose();
-        MMGameObjectsManager.getInstance().removeGoldObject(this);
-        MMGridManager.getInstance().grid[this.gridPosition.x][this.gridPosition.y].gridMesh.gridType = MMGridType.Ground;
-        MMGridManager.getInstance().grid[this.gridPosition.x][this.gridPosition.y].gridMesh.applyMaterial();
-        MMPathFinder.getInstance().grid[this.gridPosition.x][this.gridPosition.y].type = MMGridType.Ground;
+        Game.managers.gameObjects.removeGoldObject(this);
+        Game.managers.grid.grid[this.gridPosition.x][this.gridPosition.y].gridMesh.gridType = MMGridType.Ground;
+        Game.managers.grid.grid[this.gridPosition.x][this.gridPosition.y].gridMesh.applyMaterial();
+        Game.managers.pathFinder.grid[this.gridPosition.x][this.gridPosition.y].type = MMGridType.Ground;
     }
 }

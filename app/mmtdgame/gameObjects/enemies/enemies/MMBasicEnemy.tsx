@@ -28,16 +28,6 @@ export class MMBasicEnemy extends MMAEnemy {
         this.addMeToScene();
 
     }
-    takeDamage(damage: number) {
-        super.takeDamage(damage);
-    }
-    update(deltaTime: number) {
-        super.update(deltaTime);
-    }
-
-    addMeToScene() {
-        super.addMeToScene();
-    }
 }
 
 // drawing path line

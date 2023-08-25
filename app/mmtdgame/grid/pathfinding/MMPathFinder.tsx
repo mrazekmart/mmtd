@@ -30,7 +30,7 @@ export class MMPathFinder {
     startNode!: MMNode;
     endNode!: MMNode;
 
-    private constructor() {
+    constructor() {
     }
 
     /**
@@ -55,7 +55,7 @@ export class MMPathFinder {
      * @returns An instance of MMPathFinder initialized with the created node grid.
      * @param grid
      */
-    static ofGrid(grid: MMGridCell[][]): MMPathFinder {
+    ofGrid(grid: MMGridCell[][]) {
         const nodeGrid: MMNode[][] = [];
         let startNode: MMNode = {} as any;
         let endNode: MMNode = {} as any;
@@ -82,10 +82,10 @@ export class MMPathFinder {
             });
             nodeGrid.push(currentRow);
         });
-        this.getInstance().grid = nodeGrid;
-        this.getInstance().startNode = startNode;
-        this.getInstance().endNode = endNode;
-        return this.getInstance();
+        
+        this.grid = nodeGrid;
+        this.startNode = startNode;
+        this.endNode = endNode;
     }
 
     /**

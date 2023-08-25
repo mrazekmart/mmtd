@@ -20,7 +20,7 @@ export class MMTowerManager {
 
     towers: MMATower[] = [];
 
-    private constructor() {
+    constructor() {
     }
 
     public static getInstance(): MMTowerManager {

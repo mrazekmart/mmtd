@@ -2,10 +2,9 @@ import * as THREE from "three";
 import {Vector2} from "three";
 import {MMAGameObject} from "../MMAGameObject";
 import {MMBasicEnemy} from "../enemies/enemies/MMBasicEnemy";
-import {MMEnemyManager} from "../enemies/MMEnemyManager";
-import {MMTDSceneManager} from "../../MMTDSceneManager";
 import {MMAEnemy} from "../enemies/MMAEnemy";
-import {MMProjectileManager, MMProjectileType} from "../projectiles/MMProjectileManager";
+import {MMProjectileType} from "../projectiles/MMProjectileManager";
+import Game from "@app/mmtdgame/MMTDGame";
 
 export abstract class MMATower extends MMAGameObject {
 
@@ -17,9 +16,6 @@ export abstract class MMATower extends MMAGameObject {
     weaponFireRate: number = 2; // shots per sec
     timeToShoot: number = 1 / this.weaponFireRate;
     currentTimeToShoot: number = this.timeToShoot;
-
-    sceneManager = MMTDSceneManager.getInstance();
-
 
     protected constructor() {
         super();
@@ -54,7 +50,7 @@ export abstract class MMATower extends MMAGameObject {
 
     createProjectile() {
         const weaponMesh: THREE.Mesh = this.meshes[1];
-        MMProjectileManager.getInstance().createProjectile(MMProjectileType.BasicBullet, weaponMesh.position, this.target);
+        Game.managers.projectile.createProjectile(MMProjectileType.BasicBullet, weaponMesh.position, this.target);
     }
 
     targetDead(target: MMAEnemy) {
@@ -65,19 +61,19 @@ export abstract class MMATower extends MMAGameObject {
 
     addMeToScene() {
         this.meshes.forEach((mesh: THREE.Mesh) => {
-            this.sceneManager.addToScene(mesh);
+            Game.managers.scene.addToScene(mesh);
         })
     }
 
     removeMeFromScene() {
         this.meshes.forEach((mesh: THREE.Mesh) => {
-            this.sceneManager.removeFromScene(mesh);
+            Game.managers.scene.removeFromScene(mesh);
         })
     }
 
     findClosestEnemy() {
         const weaponMesh: THREE.Mesh = this.meshes[1];
-        const enemies = MMEnemyManager.getInstance().enemies;
+        const enemies = Game.managers.enemy.enemies;
         if (!enemies || enemies.length === 0) return null;
 
         let closestEnemy = enemies[0];

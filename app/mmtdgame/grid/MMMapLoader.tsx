@@ -3,7 +3,7 @@ import {MMGridCell} from "./MMGridCell";
 import {Vector2} from "three";
 import {MMCellJson} from "@app/mmtdgameTest/MMTDGameInitializerTest";
 
-export async function fetchMMGrid(divisionsX: number, divisionsY: number, cellWidth: number, cellHeight: number, scene: any) {
+export async function fetchMMGrid() : Promise<MMGridCell[][]> {
     try {
         const response = await fetch('mmmap.json');
         if (!response.ok) {
@@ -27,8 +27,7 @@ export async function fetchMMGrid(divisionsX: number, divisionsY: number, cellWi
         });
         mmCells.push(currentRow);
 
-        MMGridManager.build(new Vector2(divisionsX, divisionsY), new Vector2(cellWidth, cellHeight), mmCells).addMeToScene();
-
+        return mmCells
     } catch (error) {
         console.error('Error fetching or parsing the JSON:', error);
         throw error;

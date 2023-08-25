@@ -1,7 +1,8 @@
 import {MMATower} from "../MMATower";
 import * as THREE from "three";
 import {Vector2, Vector3} from "three";
-import {MMProjectileManager, MMProjectileType} from "../../projectiles/MMProjectileManager";
+import {MMProjectileType} from "../../projectiles/MMProjectileManager";
+import Game from "@app/mmtdgame/MMTDGame";
 
 export class MMGravityShaperTower extends MMATower {
 
@@ -30,6 +31,6 @@ export class MMGravityShaperTower extends MMATower {
 
     createProjectile() {
         const weaponMesh: THREE.Mesh = this.meshes[1];
-        MMProjectileManager.getInstance().createProjectile(MMProjectileType.GravityShaper, weaponMesh.position, this.target);
+        Game.managers.projectile.createProjectile(MMProjectileType.GravityShaper, weaponMesh.position, this.target);
     }
 }

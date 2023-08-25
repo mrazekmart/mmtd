@@ -1,7 +1,8 @@
 import {MMATower} from "../MMATower";
 import * as THREE from "three";
 import {Vector2, Vector3} from "three";
-import {MMProjectileManager, MMProjectileType} from "../../projectiles/MMProjectileManager";
+import {MMProjectileType} from "../../projectiles/MMProjectileManager";
+import Game from "@app/mmtdgame/MMTDGame";
 
 export class MMTeslaCoilTower extends MMATower {
 
@@ -37,6 +38,6 @@ export class MMTeslaCoilTower extends MMATower {
     }
 
     createProjectile() {
-        MMProjectileManager.getInstance().createProjectile(MMProjectileType.LightingStrike, this.weaponMesh.position, this.target);
+        Game.managers.projectile.createProjectile(MMProjectileType.LightingStrike, this.weaponMesh.position, this.target);
     }
 }

@@ -1,43 +1,32 @@
 import {Vector2, Vector3} from 'three';
 
 import {MMGridCell} from "./MMGridCell";
-import {MMTDSceneManager} from "../MMTDSceneManager";
 import {gridPositionFromVector} from "../util/MMMathUtil";
 import {MMGridType} from "./MMGridMesh";
-import {MMGameObjectsManager} from "@app/mmtdgame/gameObjects/mapgameobject/MMGameObjectsManager";
+import Game from "@app/mmtdgame/MMTDGame";
 
 export class MMGridManager {
-    private static instance: MMGridManager;
     gridSize!: Vector2;
     cellSize!: Vector2;
     grid!: MMGridCell[][];
 
-    private constructor() {
+    constructor() {
     }
 
-    public static getInstance(): MMGridManager {
-        if (!this.instance) {
-
-            this.instance = new MMGridManager();
-        }
-        return this.instance;
-    }
-
-    public static build(gridSize: Vector2, cellSize: Vector2, grid: MMGridCell[][]) {
-        this.getInstance().gridSize = gridSize;
-        this.getInstance().cellSize = cellSize;
-        this.getInstance().grid = grid;
-        return this.getInstance();
+    build(gridSize: Vector2, cellSize: Vector2, grid: MMGridCell[][]) {
+        this.gridSize = gridSize;
+        this.cellSize = cellSize;
+        this.grid = grid;
     }
 
     addMeToScene() {
         this.grid.forEach(row => {
             row.forEach(cell => {
-                MMTDSceneManager.getInstance().scene.add(cell.gridMesh.mesh);
-                MMTDSceneManager.getInstance().scene.add(cell.gridMesh.lineMesh);
+                Game.managers.scene.scene.add(cell.gridMesh.mesh);
+                Game.managers.scene.scene.add(cell.gridMesh.lineMesh);
 
                 if (cell.gridMesh.gridType === MMGridType.Gold) {
-                    MMGameObjectsManager.getInstance().createGoldObject(cell.gridPosition, cell.gridMesh.mesh.position);
+                    Game.managers.gameObjects.createGoldObject(cell.gridPosition, cell.gridMesh.mesh.position);
                 }
             });
         });

@@ -1,10 +1,8 @@
 import {MMAGameObject, MMGameObjectType} from "../MMAGameObject";
 import {Vector3} from "three";
 import * as THREE from "three";
-import {MMTDSceneManager} from "../../MMTDSceneManager";
-import {MMProjectileManager} from "./MMProjectileManager";
 import {MMAEnemy} from "../enemies/MMAEnemy";
-import {MMEnemyManager} from "../enemies/MMEnemyManager";
+import Game from "@app/mmtdgame/MMTDGame";
 
 export abstract class MMAProjectile extends MMAGameObject {
     projectileMesh!: THREE.Mesh;
@@ -31,7 +29,7 @@ export abstract class MMAProjectile extends MMAGameObject {
 
     checkForIntersections() {
         const thisBox = new THREE.Box3().setFromObject(this.projectileMesh);
-        const enemies = MMEnemyManager.getInstance().enemies;
+        const enemies = Game.managers.enemy.enemies;
 
         for (const enemy of enemies) {
             const enemyBox = new THREE.Box3().setFromObject(enemy.mesh);
@@ -46,14 +44,14 @@ export abstract class MMAProjectile extends MMAGameObject {
         this.removeMeFromScene();
         //don't know if this does something
         this.projectileMesh.geometry.dispose();
-        MMProjectileManager.getInstance().deleteProjectile(this);
+        Game.managers.projectile.deleteProjectile(this);
     }
 
     addMeToScene() {
-        MMTDSceneManager.getInstance().addToScene(this.projectileMesh);
+        Game.managers.scene.addToScene(this.projectileMesh);
     }
 
     removeMeFromScene() {
-        MMTDSceneManager.getInstance().removeFromScene(this.projectileMesh);
+        Game.managers.scene.removeFromScene(this.projectileMesh);
     }
 }
