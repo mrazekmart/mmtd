@@ -12,7 +12,8 @@ export interface MMCellJson {
     gridPosition: Vector2,
     cellSize: Vector2,
     gridType: number,
-    gridWalkable: boolean
+    gridWalkable: boolean,
+    gridNpcWalkable: boolean
 }
 
 export const CANVAS_WIDTH = 2560;
@@ -117,7 +118,8 @@ export function initializeThreeGrid(containerID: string, size: number): void {
                     gridPosition: cell.gridPosition,
                     cellSize: cell.cellSize,
                     gridType: cell.gridMesh.gridType,
-                    gridWalkable: cell.gridMesh.walkable
+                    gridWalkable: cell.gridMesh.walkable,
+                    gridNpcWalkable: cell.gridMesh.npcWalkable
                 }
                 myData.push(cellData);
             });
@@ -178,7 +180,7 @@ export function initializeThreeGrid(containerID: string, size: number): void {
                 //         MMProjectileType.GravityShaper, place);
                 // }
                 if (intersectedCustomObject.gridMesh.gridType === MMGridType.Ground) {
-                    MMTowerManager.getInstance().createTower(1, intersectedCustomObject.gridPosition, intersectedCustomObject.gridMesh.mesh.position);
+                    MMTowerManager.getInstance().createTower(4, intersectedCustomObject.gridPosition, intersectedCustomObject.gridMesh.mesh.position);
                 }
 
 

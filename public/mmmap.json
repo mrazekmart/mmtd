@@ -6,10 +6,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -18,10 +19,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -30,10 +32,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -42,10 +45,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -54,10 +58,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -66,10 +71,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -78,10 +84,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -90,10 +97,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -102,10 +110,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -114,10 +123,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -126,10 +136,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -138,10 +149,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -150,10 +162,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -162,10 +175,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -174,10 +188,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -186,10 +201,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -198,10 +214,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -210,10 +227,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -222,10 +240,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -234,10 +253,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -246,10 +266,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -258,10 +279,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -270,10 +292,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -282,10 +305,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -294,10 +318,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -306,10 +331,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -318,10 +344,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -330,10 +357,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -342,10 +370,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 5,
+    "gridWalkable": true,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -354,10 +383,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 5,
+    "gridWalkable": true,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -366,10 +396,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -378,10 +409,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -390,10 +422,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -402,10 +435,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -414,10 +448,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -426,10 +461,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -438,10 +474,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -450,10 +487,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -462,10 +500,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -474,10 +513,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -486,10 +526,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -498,10 +539,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -510,10 +552,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -522,10 +565,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -534,10 +578,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -546,10 +591,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -558,10 +604,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 5,
+    "gridWalkable": true,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -570,10 +617,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 5,
+    "gridWalkable": true,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -582,10 +630,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -594,10 +643,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -606,10 +656,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -618,10 +669,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -630,10 +682,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -642,10 +695,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -654,10 +708,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -666,10 +721,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -678,10 +734,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -690,10 +747,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -702,10 +760,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -714,10 +773,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -726,10 +786,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -738,10 +799,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -750,10 +812,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -762,10 +825,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -774,10 +838,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -786,10 +851,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -798,10 +864,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -810,10 +877,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -822,10 +890,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -834,10 +903,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -846,10 +916,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -858,10 +929,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -870,10 +942,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -882,10 +955,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -894,10 +968,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -906,10 +981,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -918,10 +994,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -930,10 +1007,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -942,10 +1020,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -954,10 +1033,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -966,10 +1046,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -978,10 +1059,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -990,10 +1072,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1002,10 +1085,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1014,10 +1098,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1026,10 +1111,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1038,10 +1124,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1050,10 +1137,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1062,10 +1150,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1074,10 +1163,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1086,10 +1176,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 1,
-    "gridWalkable": true
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1098,10 +1189,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 1,
-    "gridWalkable": true
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1110,10 +1202,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1122,10 +1215,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1134,10 +1228,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1146,10 +1241,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -1158,10 +1254,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 1,
-    "gridWalkable": true
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -1170,10 +1267,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 1,
-    "gridWalkable": true
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -1182,10 +1280,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 1,
-    "gridWalkable": true
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1194,10 +1293,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1206,10 +1306,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1218,10 +1319,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1230,10 +1332,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1242,10 +1345,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1254,10 +1358,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1266,10 +1371,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1278,10 +1384,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1290,10 +1397,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1302,10 +1410,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 3,
-    "gridWalkable": true
+    "gridWalkable": true,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1314,10 +1423,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 1,
-    "gridWalkable": true
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -1326,10 +1436,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 1,
-    "gridWalkable": true
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -1338,10 +1449,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 1,
-    "gridWalkable": true
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -1350,10 +1462,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 1,
-    "gridWalkable": true
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -1362,10 +1475,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 1,
-    "gridWalkable": true
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -1374,10 +1488,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 1,
-    "gridWalkable": true
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1386,202 +1501,219 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
+    },
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
+  },
+  {
+    "gridPosition": {
+      "x": 6,
+      "y": 8
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 6,
+      "y": 9
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 6,
+      "y": 10
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 6,
+      "y": 11
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 6,
+      "y": 12
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 6,
+      "y": 13
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 6,
+      "y": 14
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 6,
+      "y": 15
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 6,
+      "y": 16
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 6,
+      "y": 17
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 7,
+      "y": 0
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 7,
+      "y": 1
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 7,
+      "y": 2
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 7,
+      "y": 3
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 7,
+      "y": 4
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 7,
+      "y": 5
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
     },
     "gridType": 2,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 6,
-      "y": 8
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 1,
-    "gridWalkable": true
-  },
-  {
-    "gridPosition": {
-      "x": 6,
-      "y": 9
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 6,
-      "y": 10
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 6,
-      "y": 11
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 6,
-      "y": 12
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 6,
-      "y": 13
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 6,
-      "y": 14
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 6,
-      "y": 15
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 6,
-      "y": 16
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 6,
-      "y": 17
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 7,
-      "y": 0
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 1,
-    "gridWalkable": true
-  },
-  {
-    "gridPosition": {
-      "x": 7,
-      "y": 1
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 1,
-    "gridWalkable": true
-  },
-  {
-    "gridPosition": {
-      "x": 7,
-      "y": 2
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 7,
-      "y": 3
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 7,
-      "y": 4
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 7,
-      "y": 5
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -1590,10 +1722,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 1,
-    "gridWalkable": true
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1602,10 +1735,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 1,
-    "gridWalkable": true
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -1614,10 +1748,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 1,
-    "gridWalkable": true
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1626,10 +1761,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -1638,10 +1774,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -1650,10 +1787,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -1662,10 +1800,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -1674,10 +1813,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -1686,10 +1826,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1698,10 +1839,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1710,10 +1852,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1722,10 +1865,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1734,10 +1878,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1746,10 +1891,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1758,10 +1904,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1770,10 +1917,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1782,10 +1930,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1794,10 +1943,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -1806,10 +1956,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -1818,10 +1969,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -1830,10 +1982,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 1,
-    "gridWalkable": true
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1842,10 +1995,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -1854,10 +2008,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1866,10 +2021,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1878,10 +2034,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1890,10 +2047,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -1902,10 +2060,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1914,10 +2073,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1926,10 +2086,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1938,10 +2099,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1950,10 +2112,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1962,10 +2125,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1974,10 +2138,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1986,10 +2151,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -1998,10 +2164,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -2010,10 +2177,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -2022,10 +2190,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -2034,10 +2203,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 1,
-    "gridWalkable": true
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -2046,10 +2216,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 1,
-    "gridWalkable": true
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2058,10 +2229,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 1,
-    "gridWalkable": true
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -2070,10 +2242,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2082,10 +2255,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2094,10 +2268,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2106,10 +2281,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -2118,10 +2294,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2130,10 +2307,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2142,10 +2320,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2154,10 +2333,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2166,10 +2346,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2178,10 +2359,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2190,10 +2372,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2202,10 +2385,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2214,10 +2398,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -2226,10 +2411,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -2238,10 +2424,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -2250,10 +2437,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 1,
-    "gridWalkable": true
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -2262,202 +2450,219 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 10,
+      "y": 9
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
+  },
+  {
+    "gridPosition": {
+      "x": 10,
+      "y": 10
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 10,
+      "y": 11
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
+  },
+  {
+    "gridPosition": {
+      "x": 10,
+      "y": 12
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
+  },
+  {
+    "gridPosition": {
+      "x": 10,
+      "y": 13
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
+  },
+  {
+    "gridPosition": {
+      "x": 10,
+      "y": 14
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 10,
+      "y": 15
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 10,
+      "y": 16
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 10,
+      "y": 17
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 11,
+      "y": 0
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 11,
+      "y": 1
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 11,
+      "y": 2
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 11,
+      "y": 3
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 11,
+      "y": 4
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 11,
+      "y": 5
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
+  },
+  {
+    "gridPosition": {
+      "x": 11,
+      "y": 6
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
     },
     "gridType": 2,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 10,
-      "y": 9
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 10,
-      "y": 10
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 10,
-      "y": 11
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 10,
-      "y": 12
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 10,
-      "y": 13
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 10,
-      "y": 14
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 10,
-      "y": 15
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 10,
-      "y": 16
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 10,
-      "y": 17
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 11,
-      "y": 0
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 11,
-      "y": 1
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 11,
-      "y": 2
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 11,
-      "y": 3
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 11,
-      "y": 4
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 11,
-      "y": 5
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 11,
-      "y": 6
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -2466,10 +2671,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 1,
-    "gridWalkable": true
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2478,10 +2684,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 1,
-    "gridWalkable": true
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2490,10 +2697,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 1,
-    "gridWalkable": true
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -2502,10 +2710,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 1,
-    "gridWalkable": true
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2514,10 +2723,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 1,
-    "gridWalkable": true
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -2526,10 +2736,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 1,
-    "gridWalkable": true
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2538,10 +2749,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2550,10 +2762,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2562,10 +2775,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2574,10 +2788,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2586,10 +2801,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2598,10 +2814,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2610,10 +2827,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2622,10 +2840,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2634,10 +2853,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2646,10 +2866,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -2658,10 +2879,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -2670,10 +2892,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -2682,10 +2905,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 1,
-    "gridWalkable": true
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -2694,310 +2918,336 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
-    },
-    "gridType": 1,
-    "gridWalkable": true
-  },
-  {
-    "gridPosition": {
-      "x": 12,
-      "y": 9
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 1,
-    "gridWalkable": true
-  },
-  {
-    "gridPosition": {
-      "x": 12,
-      "y": 10
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 1,
-    "gridWalkable": true
-  },
-  {
-    "gridPosition": {
-      "x": 12,
-      "y": 11
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 1,
-    "gridWalkable": true
-  },
-  {
-    "gridPosition": {
-      "x": 12,
-      "y": 12
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 1,
-    "gridWalkable": true
-  },
-  {
-    "gridPosition": {
-      "x": 12,
-      "y": 13
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 1,
-    "gridWalkable": true
-  },
-  {
-    "gridPosition": {
-      "x": 12,
-      "y": 14
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 1,
-    "gridWalkable": true
-  },
-  {
-    "gridPosition": {
-      "x": 12,
-      "y": 15
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 1,
-    "gridWalkable": true
-  },
-  {
-    "gridPosition": {
-      "x": 12,
-      "y": 16
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 12,
-      "y": 17
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 13,
-      "y": 0
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 13,
-      "y": 1
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 13,
-      "y": 2
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 13,
-      "y": 3
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 13,
-      "y": 4
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 13,
-      "y": 5
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 13,
-      "y": 6
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 13,
-      "y": 7
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 13,
-      "y": 8
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 13,
-      "y": 9
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 13,
-      "y": 10
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 13,
-      "y": 11
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 13,
-      "y": 12
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 13,
-      "y": 13
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 13,
-      "y": 14
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 1,
-    "gridWalkable": true
-  },
-  {
-    "gridPosition": {
-      "x": 13,
-      "y": 15
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 2,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": false
+  },
+  {
+    "gridPosition": {
+      "x": 12,
+      "y": 9
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
+  },
+  {
+    "gridPosition": {
+      "x": 12,
+      "y": 10
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 12,
+      "y": 11
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
+  },
+  {
+    "gridPosition": {
+      "x": 12,
+      "y": 12
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
+  },
+  {
+    "gridPosition": {
+      "x": 12,
+      "y": 13
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
+  },
+  {
+    "gridPosition": {
+      "x": 12,
+      "y": 14
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 12,
+      "y": 15
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 12,
+      "y": 16
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 12,
+      "y": 17
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 13,
+      "y": 0
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 13,
+      "y": 1
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 13,
+      "y": 2
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 13,
+      "y": 3
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 13,
+      "y": 4
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 13,
+      "y": 5
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 13,
+      "y": 6
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 13,
+      "y": 7
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
+  },
+  {
+    "gridPosition": {
+      "x": 13,
+      "y": 8
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
+  },
+  {
+    "gridPosition": {
+      "x": 13,
+      "y": 9
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
+  },
+  {
+    "gridPosition": {
+      "x": 13,
+      "y": 10
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 13,
+      "y": 11
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 13,
+      "y": 12
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 13,
+      "y": 13
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
+  },
+  {
+    "gridPosition": {
+      "x": 13,
+      "y": 14
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 13,
+      "y": 15
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3006,10 +3256,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 1,
-    "gridWalkable": true
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3018,10 +3269,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 1,
-    "gridWalkable": true
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3030,10 +3282,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3042,10 +3295,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3054,10 +3308,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3066,10 +3321,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3078,10 +3334,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3090,10 +3347,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3102,10 +3360,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3114,10 +3373,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3126,10 +3386,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3138,10 +3399,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3150,10 +3412,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3162,10 +3425,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3174,10 +3438,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3186,10 +3451,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -3198,10 +3464,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 1,
-    "gridWalkable": true
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3210,10 +3477,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 2,
-    "gridWalkable": false
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3222,10 +3490,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 1,
-    "gridWalkable": true
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3234,514 +3503,557 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 15,
+      "y": 0
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 15,
+      "y": 1
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 15,
+      "y": 2
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 15,
+      "y": 3
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 15,
+      "y": 4
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 15,
+      "y": 5
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 15,
+      "y": 6
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 15,
+      "y": 7
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 15,
+      "y": 8
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 15,
+      "y": 9
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 15,
+      "y": 10
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 15,
+      "y": 11
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 15,
+      "y": 12
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 15,
+      "y": 13
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
+  },
+  {
+    "gridPosition": {
+      "x": 15,
+      "y": 14
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 15,
+      "y": 15
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 15,
+      "y": 16
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 15,
+      "y": 17
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 16,
+      "y": 0
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 16,
+      "y": 1
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 16,
+      "y": 2
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 16,
+      "y": 3
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 16,
+      "y": 4
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 16,
+      "y": 5
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 16,
+      "y": 6
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 16,
+      "y": 7
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
+  },
+  {
+    "gridPosition": {
+      "x": 16,
+      "y": 8
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
+  },
+  {
+    "gridPosition": {
+      "x": 16,
+      "y": 9
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
+  },
+  {
+    "gridPosition": {
+      "x": 16,
+      "y": 10
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
+  },
+  {
+    "gridPosition": {
+      "x": 16,
+      "y": 11
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
+  },
+  {
+    "gridPosition": {
+      "x": 16,
+      "y": 12
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 16,
+      "y": 13
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
+  },
+  {
+    "gridPosition": {
+      "x": 16,
+      "y": 14
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 16,
+      "y": 15
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 16,
+      "y": 16
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 16,
+      "y": 17
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 17,
+      "y": 0
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 17,
+      "y": 1
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
+    },
+    "gridType": 0,
+    "gridWalkable": false,
+    "gridNpcWalkable": true
+  },
+  {
+    "gridPosition": {
+      "x": 17,
+      "y": 2
+    },
+    "cellSize": {
+      "x": 80,
+      "y": 74
     },
     "gridType": 4,
-    "gridWalkable": true
+    "gridWalkable": true,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
-      "x": 15,
-      "y": 0
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 15,
-      "y": 1
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 15,
-      "y": 2
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 15,
+      "x": 17,
       "y": 3
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 15,
-      "y": 4
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 15,
-      "y": 5
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 15,
-      "y": 6
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 15,
-      "y": 7
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 15,
-      "y": 8
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 15,
-      "y": 9
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 15,
-      "y": 10
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 15,
-      "y": 11
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 15,
-      "y": 12
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 15,
-      "y": 13
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 15,
-      "y": 14
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 1,
-    "gridWalkable": true
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
-      "x": 15,
-      "y": 15
+      "x": 17,
+      "y": 4
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 1,
-    "gridWalkable": true
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
-      "x": 15,
-      "y": 16
+      "x": 17,
+      "y": 5
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 1,
-    "gridWalkable": true
-  },
-  {
-    "gridPosition": {
-      "x": 15,
-      "y": 17
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 16,
-      "y": 0
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 16,
-      "y": 1
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 16,
-      "y": 2
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 16,
-      "y": 3
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 16,
-      "y": 4
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 16,
-      "y": 5
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 16,
-      "y": 6
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 16,
-      "y": 7
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 16,
-      "y": 8
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 16,
-      "y": 9
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 16,
-      "y": 10
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 16,
-      "y": 11
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 16,
-      "y": 12
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 16,
-      "y": 13
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 16,
-      "y": 14
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 16,
-      "y": 15
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 16,
-      "y": 16
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 16,
-      "y": 17
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 17,
-      "y": 0
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 17,
-      "y": 1
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 17,
-      "y": 2
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 17,
-      "y": 3
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 17,
-      "y": 4
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
-  },
-  {
-    "gridPosition": {
-      "x": 17,
-      "y": 5
-    },
-    "cellSize": {
-      "x": 80,
-      "y": 73.5
-    },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -3750,10 +4062,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -3762,10 +4075,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -3774,10 +4088,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3786,10 +4101,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3798,10 +4114,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3810,10 +4127,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -3822,10 +4140,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -3834,10 +4153,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 1,
+    "gridWalkable": true,
+    "gridNpcWalkable": false
   },
   {
     "gridPosition": {
@@ -3846,10 +4166,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3858,10 +4179,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3870,10 +4192,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3882,10 +4205,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3894,10 +4218,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3906,10 +4231,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3918,10 +4244,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3930,10 +4257,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3942,10 +4270,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3954,10 +4283,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3966,10 +4296,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3978,10 +4309,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -3990,10 +4322,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4002,10 +4335,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4014,10 +4348,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4026,10 +4361,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4038,10 +4374,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4050,10 +4387,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4062,10 +4400,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4074,10 +4413,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4086,10 +4426,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4098,10 +4439,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4110,10 +4452,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4122,10 +4465,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4134,10 +4478,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4146,10 +4491,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4158,10 +4504,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4170,10 +4517,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4182,10 +4530,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4194,10 +4543,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4206,10 +4556,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4218,10 +4569,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4230,10 +4582,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4242,10 +4595,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4254,10 +4608,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4266,10 +4621,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4278,10 +4634,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4290,10 +4647,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4302,10 +4660,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4314,10 +4673,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4326,10 +4686,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4338,10 +4699,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4350,10 +4712,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4362,10 +4725,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4374,10 +4738,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4386,10 +4751,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4398,10 +4764,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4410,10 +4777,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4422,10 +4790,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4434,10 +4803,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4446,10 +4816,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4458,10 +4829,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4470,10 +4842,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4482,10 +4855,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4494,10 +4868,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4506,10 +4881,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4518,10 +4894,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4530,10 +4907,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4542,10 +4920,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4554,10 +4933,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4566,10 +4946,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4578,10 +4959,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4590,10 +4972,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4602,10 +4985,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4614,10 +4998,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 5,
+    "gridWalkable": true,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4626,10 +5011,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 5,
+    "gridWalkable": true,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4638,10 +5024,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4650,10 +5037,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4662,10 +5050,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4674,10 +5063,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4686,10 +5076,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4698,10 +5089,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4710,10 +5102,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4722,10 +5115,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4734,10 +5128,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4746,10 +5141,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4758,10 +5154,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4770,10 +5167,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4782,10 +5180,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4794,10 +5193,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4806,10 +5206,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4818,10 +5219,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 5,
+    "gridWalkable": true,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4830,10 +5232,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 5,
+    "gridWalkable": true,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4842,10 +5245,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 5,
+    "gridWalkable": true,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4854,10 +5258,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4866,10 +5271,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4878,10 +5284,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4890,10 +5297,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4902,10 +5310,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4914,10 +5323,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4926,10 +5336,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4938,10 +5349,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4950,10 +5362,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4962,10 +5375,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4974,10 +5388,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4986,10 +5401,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -4998,10 +5414,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5010,10 +5427,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5022,10 +5440,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5034,10 +5453,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 5,
+    "gridWalkable": true,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5046,10 +5466,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 5,
+    "gridWalkable": true,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5058,10 +5479,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
-    "gridType": 0,
-    "gridWalkable": false
+    "gridType": 5,
+    "gridWalkable": true,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5070,10 +5492,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5082,10 +5505,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5094,10 +5518,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5106,10 +5531,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5118,10 +5544,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5130,10 +5557,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5142,10 +5570,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5154,10 +5583,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5166,10 +5596,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5178,10 +5609,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5190,10 +5622,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5202,10 +5635,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5214,10 +5648,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5226,10 +5661,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5238,10 +5674,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5250,10 +5687,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5262,10 +5700,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5274,10 +5713,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5286,10 +5726,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5298,10 +5739,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5310,10 +5752,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5322,10 +5765,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5334,10 +5778,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5346,10 +5791,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5358,10 +5804,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5370,10 +5817,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5382,10 +5830,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5394,10 +5843,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5406,10 +5856,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5418,10 +5869,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5430,10 +5882,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5442,10 +5895,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5454,10 +5908,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5466,10 +5921,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5478,10 +5934,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5490,10 +5947,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5502,10 +5960,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5514,10 +5973,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5526,10 +5986,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5538,10 +5999,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5550,10 +6012,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5562,10 +6025,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5574,10 +6038,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5586,10 +6051,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5598,10 +6064,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5610,10 +6077,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5622,10 +6090,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5634,10 +6103,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5646,10 +6116,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5658,10 +6129,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5670,10 +6142,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5682,10 +6155,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5694,10 +6168,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5706,10 +6181,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5718,10 +6194,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5730,10 +6207,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5742,10 +6220,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5754,10 +6233,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5766,10 +6246,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5778,10 +6259,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5790,10 +6272,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5802,10 +6285,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5814,10 +6298,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5826,10 +6311,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5838,10 +6324,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5850,10 +6337,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5862,10 +6350,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5874,10 +6363,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5886,10 +6376,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5898,10 +6389,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5910,10 +6402,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5922,10 +6415,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5934,10 +6428,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5946,10 +6441,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5958,10 +6454,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5970,10 +6467,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5982,10 +6480,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -5994,10 +6493,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6006,10 +6506,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6018,10 +6519,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6030,10 +6532,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6042,10 +6545,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6054,10 +6558,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6066,10 +6571,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6078,10 +6584,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6090,10 +6597,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6102,10 +6610,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6114,10 +6623,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6126,10 +6636,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6138,10 +6649,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6150,10 +6662,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6162,10 +6675,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6174,10 +6688,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6186,10 +6701,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6198,10 +6714,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6210,10 +6727,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6222,10 +6740,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6234,10 +6753,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6246,10 +6766,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6258,10 +6779,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6270,10 +6792,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6282,10 +6805,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6294,10 +6818,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6306,10 +6831,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6318,10 +6844,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6330,10 +6857,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6342,10 +6870,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6354,10 +6883,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6366,10 +6896,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6378,10 +6909,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6390,10 +6922,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6402,10 +6935,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6414,10 +6948,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6426,10 +6961,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6438,10 +6974,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6450,10 +6987,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6462,10 +7000,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6474,10 +7013,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6486,10 +7026,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6498,10 +7039,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6510,10 +7052,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6522,10 +7065,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6534,10 +7078,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6546,10 +7091,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6558,10 +7104,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6570,10 +7117,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6582,10 +7130,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6594,10 +7143,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6606,10 +7156,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6618,10 +7169,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6630,10 +7182,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6642,10 +7195,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6654,10 +7208,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6666,10 +7221,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6678,10 +7234,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6690,10 +7247,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6702,10 +7260,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6714,10 +7273,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6726,10 +7286,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6738,10 +7299,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6750,10 +7312,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6762,10 +7325,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6774,10 +7338,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6786,10 +7351,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6798,10 +7364,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6810,10 +7377,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6822,10 +7390,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6834,10 +7403,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6846,10 +7416,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6858,10 +7429,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6870,10 +7442,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6882,10 +7455,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6894,10 +7468,11 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   },
   {
     "gridPosition": {
@@ -6906,9 +7481,10 @@
     },
     "cellSize": {
       "x": 80,
-      "y": 73.5
+      "y": 74
     },
     "gridType": 0,
-    "gridWalkable": false
+    "gridWalkable": false,
+    "gridNpcWalkable": true
   }
 ]

@@ -74,6 +74,7 @@ export abstract class MMAEnemy extends MMAGameObject {
     update(deltaTime: number) {
         if (this.calculateNewPath) {
             this.path = MMPathFinder.getInstance().findPathByPosition(this.mesh.position);
+            this.path?.shift();
             this.calculateNewPath = false;
         }
 

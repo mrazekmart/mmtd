@@ -7,6 +7,7 @@ export class MMBasicTower extends MMATower {
     constructor(gridPosition: Vector2, position: Vector3) {
         super();
         this.gridPosition = gridPosition;
+        console.log("-> this.gridPosition", this.gridPosition);
 
         const buildingGeometry = new THREE.BoxGeometry(60, 60, 2);
         const buildingMaterial = new THREE.MeshBasicMaterial({color: 0xA52A2A});

@@ -18,22 +18,22 @@ export class MMEnemyManager {
         return this.instance;
     }
 
-    createEnemy(position: Vector3){
+    createEnemy(position: Vector3) {
         const enemy = new MMBasicEnemy(position);
         this.addEnemy(enemy);
     }
 
     deleteEnemy(enemyToDelete: MMAEnemy) {
-        this.enemies = this.enemies.filter((enemy: MMAEnemy) => enemy.mesh.id !== enemyToDelete.mesh.id);
+        this.enemies = this.enemies.filter((enemy: MMAEnemy) => enemy !== enemyToDelete);
     }
 
-    updateEnemies(deltaTime: number){
-        this.enemies.forEach((enemy: MMBasicEnemy) =>{
+    updateEnemies(deltaTime: number) {
+        this.enemies.forEach((enemy: MMBasicEnemy) => {
             enemy.update(deltaTime);
         })
     }
 
-    calculateNewPath(){
+    calculateNewPath() {
         this.enemies.forEach((entity: any) => {
             entity.calculateNewPath = true;
         })

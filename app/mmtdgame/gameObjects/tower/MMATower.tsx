@@ -16,6 +16,7 @@ export abstract class MMATower extends MMAGameObject {
     weaponRange: number = 200;
     weaponFireRate: number = 2; // shots per sec
     timeToShoot: number = 1 / this.weaponFireRate;
+    currentTimeToShoot: number = this.timeToShoot;
 
     sceneManager = MMTDSceneManager.getInstance();
 
@@ -28,8 +29,8 @@ export abstract class MMATower extends MMAGameObject {
     update(deltaTime: number) {
         const weaponMesh: THREE.Mesh = this.meshes[1];
 
-        if (this.timeToShoot < 1 / this.weaponFireRate) {
-            this.timeToShoot += deltaTime;
+        if (this.currentTimeToShoot < 1 / this.weaponFireRate) {
+            this.currentTimeToShoot += deltaTime;
             return;
         }
 
@@ -45,10 +46,12 @@ export abstract class MMATower extends MMAGameObject {
                 return;
             }
             this.createProjectile();
-            this.timeToShoot -= 1 / this.weaponFireRate;
+
+            //FIXME: this is not accurate
+            this.currentTimeToShoot = 0;
         }
     }
-    
+
     createProjectile() {
         const weaponMesh: THREE.Mesh = this.meshes[1];
         MMProjectileManager.getInstance().createProjectile(MMProjectileType.BasicBullet, weaponMesh.position, this.target);
