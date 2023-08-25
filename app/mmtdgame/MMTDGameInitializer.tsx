@@ -10,6 +10,7 @@ import {MMTDSceneManager} from "./MMTDSceneManager";
 import {MMTowerManager} from "./gameObjects/tower/MMTowerManager";
 import {MMBuilderMode} from "./builder/MMBuilderMode";
 import {MMProjectileManager} from "@app/mmtdgame/gameObjects/projectiles/MMProjectileManager";
+import {MMGameObjectsManager} from "@app/mmtdgame/gameObjects/mapgameobject/MMGameObjectsManager";
 
 
 export const CANVAS_WIDTH = 2560;
@@ -121,6 +122,7 @@ export function initializeThreeGrid(containerID: string): void {
         MMEnemyManager.getInstance().updateEnemies(deltaTime);
         MMTowerManager.getInstance().updateTowers(deltaTime);
         MMProjectileManager.getInstance().updateProjectiles(deltaTime);
+        MMGameObjectsManager.getInstance().updateMapGameObjects(deltaTime);
     }
 
     requestAnimationFrame(animate);

@@ -1,7 +1,7 @@
 import {MMGridManager} from "./MMGridManager";
 import {MMGridCell} from "./MMGridCell";
 import {Vector2} from "three";
-import {MMCellJson} from "./maker/MMGridMaker";
+import {MMCellJson} from "@app/mmtdgameTest/MMTDGameInitializerTest";
 
 export async function fetchMMGrid(divisionsX: number, divisionsY: number, cellWidth: number, cellHeight: number, scene: any) {
     try {

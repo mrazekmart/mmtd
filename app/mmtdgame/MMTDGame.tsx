@@ -50,6 +50,9 @@ const MMTDGame: React.FC = () => {
                             <li className="sci-fi-button-list-item">
                                 <button onClick={() => handleTowerClick(3)}>Lighting Strike Tower</button>
                             </li>
+                            <li className="sci-fi-button-list-item">
+                                <button onClick={() => handleTowerClick(4)}>Gold Miner Tower</button>
+                            </li>
                         </ul>
                     </div>
                 )}

@@ -4,6 +4,7 @@ import {MMGridCell} from "./MMGridCell";
 import {MMTDSceneManager} from "../MMTDSceneManager";
 import {gridPositionFromVector} from "../util/MMMathUtil";
 import {MMGridType} from "./MMGridMesh";
+import {MMGameObjectsManager} from "@app/mmtdgame/gameObjects/mapgameobject/MMGameObjectsManager";
 
 export class MMGridManager {
     private static instance: MMGridManager;
@@ -34,6 +35,10 @@ export class MMGridManager {
             row.forEach(cell => {
                 MMTDSceneManager.getInstance().scene.add(cell.gridMesh.mesh);
                 MMTDSceneManager.getInstance().scene.add(cell.gridMesh.lineMesh);
+
+                if (cell.gridMesh.gridType === MMGridType.Gold) {
+                    MMGameObjectsManager.getInstance().createGoldObject(cell.gridPosition, cell.gridMesh.mesh.position);
+                }
             });
         });
     }

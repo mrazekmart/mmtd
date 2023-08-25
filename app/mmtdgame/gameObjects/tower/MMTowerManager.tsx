@@ -5,12 +5,14 @@ import {MMBasicTower} from "./towers/MMBasicTower";
 import {MMSlowingTower} from "./towers/MMSlowingTower";
 import {MMGravityShaperTower} from "./towers/MMGravityShaperTower";
 import {MMTeslaCoilTower} from "./towers/MMTeslaCoilTower";
+import {MMGoldMinerTower} from "@app/mmtdgame/gameObjects/tower/towers/MMGoldMinerTower";
 
 export enum MMTowerType {
     BasicTower,
     SlowingTower,
     GravityShaperTower,
     LightingStrikeTower,
+    GoldMinerTower,
 }
 
 export class MMTowerManager {
@@ -50,6 +52,9 @@ export class MMTowerManager {
                 break;
             case MMTowerType.LightingStrikeTower:
                 tower = new MMTeslaCoilTower(gridPosition, position);
+                break;
+            case MMTowerType.GoldMinerTower:
+                tower = new MMGoldMinerTower(gridPosition, position);
                 break;
             default:
                 tower = new MMBasicTower(gridPosition, position);

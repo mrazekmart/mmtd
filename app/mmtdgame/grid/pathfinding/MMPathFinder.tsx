@@ -33,6 +33,14 @@ export class MMPathFinder {
     private constructor() {
     }
 
+    /**
+     * Singleton method to get the instance of the MMPathFinder.
+     *
+     * If an instance doesn't already exist, it creates a new one.
+     * Otherwise, it returns the existing instance.
+     *
+     * @returns The single instance of MMPathFinder.
+     */
     public static getInstance(): MMPathFinder {
         if (!this.instance) {
 
@@ -63,10 +71,12 @@ export class MMPathFinder {
                         h: 0,
                         f: 0,
                         walkable: cell.gridMesh.walkable,
+                        npcWalkable: cell.gridMesh.npcWalkable,
                         center: new Vector3(
                             cell.gridPosition.x * CELL_WIDTH - (GRID_SIZE_WIDTH * CELL_WIDTH) / 2 + CELL_WIDTH / 2,
                             -cell.gridPosition.y * CELL_HEIGHT + (GRID_SIZE_HEIGHT * CELL_HEIGHT) / 2 - CELL_HEIGHT / 2,
-                            0)
+                            0),
+                        type: cell.gridMesh.gridType,
                     };
 
                 if (cell.gridMesh.gridType === MMGridType.Start) startNode = node;
@@ -91,39 +101,44 @@ export class MMPathFinder {
      */
     findPath(start?: MMNode, target?: MMNode): MMNode[] | null {
         const openList: MMNode[] = [];
-        const closedList: MMNode[] = [];
+        const closedList: Set<MMNode> = new Set();
 
         if (!start) start = this.startNode;
         if (!target) target = this.endNode;
 
-        start.g = 0;
-        start.h = this.heuristic(start, target);
-        start.f = start.g + start.h;
+        const gValues: Map<MMNode, number> = new Map();
+        const fValues: Map<MMNode, number> = new Map();
+        const hValues: Map<MMNode, number> = new Map();
+        const parents: Map<MMNode, MMNode> = new Map();
+
+        gValues.set(start, 0);
+        hValues.set(start, this.heuristic(start, target));
+        fValues.set(start, gValues.get(start)! + hValues.get(start)!);
 
         openList.push(start);
 
         while (openList.length > 0) {
-            openList.sort((a, b) => a.f - b.f);
+            openList.sort((a, b) => fValues.get(a)! - fValues.get(b)!);
             const currentNode = openList.shift()!;
 
             if (currentNode === target) {
-                return this.constructPath(currentNode);
+                return this.constructPathWithParents(currentNode, parents);
             }
 
-            closedList.push(currentNode);
+            closedList.add(currentNode);
 
             const neighbors = this.getNeighbors(currentNode);
             for (const neighbor of neighbors) {
-                if (!neighbor.walkable || closedList.includes(neighbor)) {
+                if (!neighbor.walkable || closedList.has(neighbor)) {
                     continue;
                 }
 
-                const tentative_g = currentNode.g + 1;
-                if (!openList.includes(neighbor) || tentative_g < neighbor.g) {
-                    neighbor.parent = currentNode;
-                    neighbor.g = tentative_g;
-                    neighbor.h = this.heuristic(neighbor, target);
-                    neighbor.f = neighbor.g + neighbor.h;
+                const tentative_g = gValues.get(currentNode)! + 1;
+                if (!openList.includes(neighbor) || tentative_g < gValues.get(neighbor)!) {
+                    parents.set(neighbor, currentNode);
+                    gValues.set(neighbor, tentative_g);
+                    hValues.set(neighbor, this.heuristic(neighbor, target));
+                    fValues.set(neighbor, gValues.get(neighbor)! + hValues.get(neighbor)!);
 
                     if (!openList.includes(neighbor)) {
                         openList.push(neighbor);
@@ -151,10 +166,67 @@ export class MMPathFinder {
         if (!this.endNode.center) return null;
         if (!end) end = this.endNode.center;
 
-        const startNode = gridPositionFromVector(start);
-        const endNode = gridPositionFromVector(end);
+        const startPosition = gridPositionFromVector(start);
+        const endPosition = gridPositionFromVector(end);
 
-        return this.findPath(this.grid[startNode.x][startNode.y], this.grid[endNode.x][endNode.y]);
+        return this.findPath(this.grid[startPosition.x][startPosition.y], this.grid[endPosition.x][endPosition.y]);
+    }
+
+    /**
+     * Finds a path to the nearest desired node type starting from a given position.
+     *
+     * This function looks for the shortest path from a starting position to any
+     * node of a specified type.
+     *
+     * @param startPosition - The starting 3D position.
+     * @param desiredNodeType - The desired MMGridType to find.
+     * @returns An array of nodes representing the path to the nearest desired node type, or null if no path is found.
+     */
+    findPathToClosestBlockType(startPosition: Vector3, desiredNodeType: MMGridType): MMNode[] | null {
+        const openList: MMNode[] = [];
+        const closedList: Set<MMNode> = new Set();
+
+        const start = gridPositionFromVector(startPosition);
+        const startNode = this.grid[start.x][start.y];
+
+        const gValues: Map<MMNode, number> = new Map();
+        const fValues: Map<MMNode, number> = new Map();
+        const parents: Map<MMNode, MMNode> = new Map();
+
+        gValues.set(startNode, 0);
+        fValues.set(startNode, 0);
+
+        openList.push(startNode);
+
+        while (openList.length > 0) {
+            openList.sort((a, b) => fValues.get(a)! - fValues.get(b)!);
+            const currentNode = openList.shift()!;
+
+            if (currentNode.type === desiredNodeType) {
+                return this.constructPathWithParents(currentNode, parents);
+            }
+
+            closedList.add(currentNode);
+
+            const neighbors = this.getNeighbors(currentNode);
+            for (const neighbor of neighbors) {
+                if (!neighbor.npcWalkable || closedList.has(neighbor)) {
+                    continue;
+                }
+
+                const tentative_g = gValues.get(currentNode)! + 1;
+                if (!openList.includes(neighbor) || tentative_g < gValues.get(neighbor)!) {
+                    parents.set(neighbor, currentNode);
+                    gValues.set(neighbor, tentative_g);
+                    fValues.set(neighbor, tentative_g);  // Since h is always 0, f is equal to g
+
+                    if (!openList.includes(neighbor)) {
+                        openList.push(neighbor);
+                    }
+                }
+            }
+        }
+        return null;
     }
 
     /**
@@ -192,25 +264,51 @@ export class MMPathFinder {
     }
 
     /**
-     * Constructs the path from a given node backtracking through its parents.
-     * @param node - The current node (usually the target node).
-     * @returns An array of nodes representing the path.
+     * Fetches all the neighbors (including diagonals) of a given node.
+     *
+     * This function retrieves all 8 surrounding nodes of a given node, if they exist.
+     *
+     * @param node - The node for which neighbors are to be fetched.
+     * @returns An array of MMNode representing all neighbors.
      */
-    private constructPath(node: MMNode): MMNode[] {
+    private getAllNeighbors(node: MMNode): MMNode[] {
+        const neighbors: MMNode[] = [];
+        const dx = [-1, -1, -1, 0, 0, 1, 1, 1];
+        const dy = [-1, 0, 1, -1, 1, -1, 0, 1];
+
+        for (let i = 0; i < 8; i++) {
+            const newX = node.x + dx[i];
+            const newY = node.y + dy[i];
+
+            if (newX >= 0 && newX < this.grid.length && newY >= 0 && newY < this.grid[0].length) {
+                neighbors.push(this.grid[newX][newY]);
+            }
+        }
+
+        return neighbors;
+    }
+
+    /**
+     * Constructs the path from a given node backtracking through its parents.
+     * @returns An array of nodes representing the path.
+     * @param endNode
+     * @param parents
+     */
+    private constructPathWithParents(endNode: MMNode, parents: Map<MMNode, MMNode>): MMNode[] {
         const path: MMNode[] = [];
         const visited: Set<MMNode> = new Set();
 
-        while (node) {
-            if (visited.has(node)) {
+        let currentNode: MMNode | undefined = endNode;
+
+        while (currentNode) {
+            if (visited.has(currentNode)) {
                 break;
             }
 
-            path.unshift(node);
-            visited.add(node);
-            node = node.parent!;
+            path.unshift(currentNode);
+            visited.add(currentNode);
+            currentNode = parents.get(currentNode) || undefined;
         }
-        //skipping first node seems to be much nicer behaviour
-        path.shift();
         return path;
     }
 }
@@ -222,6 +320,8 @@ export type MMNode = {
     h: number;
     f: number;
     walkable: boolean;
+    npcWalkable: boolean;
     parent?: MMNode;
     center: Vector3;
+    type: MMGridType;
 };

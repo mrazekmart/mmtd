@@ -35,7 +35,7 @@ export class MMGridCell {
     }
 
     changeGridType() {
-        if (this.gridMesh.gridType === 4) {
+        if (this.gridMesh.gridType === 5) {
             this.gridMesh.gridType = 0;
         } else {
             this.gridMesh.gridType++;
