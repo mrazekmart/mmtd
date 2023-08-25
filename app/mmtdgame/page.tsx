@@ -12,6 +12,19 @@ const page = () => {
             .then(() => Game.run())
     }, []);
 
+    useEffect(() => {
+        const pause = () => Game.pause();
+        const resume = () => Game.resume();
+        
+        window.addEventListener('blur', pause);
+        window.addEventListener('focus', resume);
+
+        return () => {
+            window.removeEventListener('blur', pause);
+            window.removeEventListener('focus', resume);
+        }
+    }, []);
+
     const handleTowerClick = (towerType: number) => {
         Game.managers.builderMode.turnOn()
         Game.managers.builderMode.towerToPlaceType = towerType

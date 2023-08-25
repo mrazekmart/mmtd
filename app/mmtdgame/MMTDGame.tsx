@@ -15,6 +15,7 @@ import {MMWaveManager} from "@app/mmtdgame/waves/MMWaveManager";
 
 class Game extends THREE.EventDispatcher {
     lastFrameTime!: number
+    isPaused: boolean = true
 
     renderer!: THREE.WebGLRenderer
     camera!: THREE.PerspectiveCamera
@@ -78,6 +79,8 @@ class Game extends THREE.EventDispatcher {
         this.scene = this.managers.scene.scene
 
         const onClick = (event: MouseEvent) => {
+            event.preventDefault()
+
             const canvasBounds = this.renderer.domElement.getBoundingClientRect();
 
             // Adjust the mouse coordinates for canvas position and scaling
@@ -113,6 +116,8 @@ class Game extends THREE.EventDispatcher {
     }
 
     update(frameTime: number) {
+        if (this.isPaused) return
+
         if (!this.lastFrameTime) {
             this.lastFrameTime = frameTime
         }
@@ -131,6 +136,17 @@ class Game extends THREE.EventDispatcher {
     }
 
     run() {
+        this.resume()
+    }
+
+    pause() {
+        this.isPaused = true
+    }
+
+    resume() {
+        this.isPaused = false
+        this.lastFrameTime = 0
+
         requestAnimationFrame(this.update)
     }
 
