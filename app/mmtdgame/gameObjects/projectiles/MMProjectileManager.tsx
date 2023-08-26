@@ -18,7 +18,7 @@ export class MMProjectileManager {
 
     projectiles: MMAProjectile[] = [];
 
-    private constructor() {
+    constructor() {
     }
 
     public static getInstance(): MMProjectileManager {

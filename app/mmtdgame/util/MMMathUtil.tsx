@@ -1,8 +1,11 @@
 import {Vector2, Vector3} from "three";
-import {CANVAS_HEIGHT, CANVAS_WIDTH, CELL_HEIGHT, CELL_WIDTH} from "../MMTDGameInitializer";
+import Game from "@app/mmtdgame/MMTDGame";
 
 export const gridPositionFromVector = (position: Vector3): Vector2 => {
+    const canvasSize = Game.canvasSize;
+    const cellSize = Game.managers.grid.getCellSize();
+
     return new Vector2(
-        Math.round((position.x + CANVAS_WIDTH / 2 - CELL_WIDTH / 2) / CELL_WIDTH),
-        Math.round((-position.y + CANVAS_HEIGHT / 2 - CELL_HEIGHT / 2) / CELL_HEIGHT));
+        Math.round((position.x + canvasSize.width / 2 - cellSize.x / 2) / cellSize.x),
+        Math.round((-position.y + canvasSize.height / 2 - cellSize.y / 2) / cellSize.y));
 }

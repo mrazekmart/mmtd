@@ -7,7 +7,7 @@ export class MMEnemyManager {
 
     enemies: MMAEnemy[] = [];
 
-    private constructor() {
+    constructor() {
     }
 
     public static getInstance(): MMEnemyManager {

@@ -1,12 +1,8 @@
 import * as THREE from "three";
 import {Vector3} from "three";
-import {MMNode, MMPathFinder} from "../../grid/pathfinding/MMPathFinder";
-import {CELL_HEIGHT} from "../../MMTDGameInitializer";
-import {MMTDSceneManager} from "../../MMTDSceneManager";
+import {MMNode} from "../../grid/pathfinding/MMPathFinder";
 import {MMAGameObject} from "../MMAGameObject";
-import {MMEnemyManager} from "./MMEnemyManager";
-import {MMTowerManager} from "../tower/MMTowerManager";
-import {MMGridManager} from "../../grid/MMGridManager";
+import Game from "@app/mmtdgame/MMTDGame";
 
 /**
  * Represents an enemy entity in the game with movement, health, and pathfinding capabilities.
@@ -22,9 +18,6 @@ export abstract class MMAEnemy extends MMAGameObject {
     health: number = 100;
     speed: number = 50;
 
-    private readonly gridManager = MMGridManager.getInstance();
-    private readonly sceneManager = MMTDSceneManager.getInstance();
-
     protected constructor() {
         super();
     }
@@ -35,7 +28,7 @@ export abstract class MMAEnemy extends MMAGameObject {
      */
     addForce(force: Vector3) {
         //don't push it out of the road
-        if (this.gridManager.outOfRoad(this.mesh.position, this.size, force)) return;
+        if (Game.managers.grid.outOfRoad(this.mesh.position, this.size, force)) return;
 
         this.mesh.position.add(force);
         this.healthBarMesh.position.add(force);
@@ -62,8 +55,8 @@ export abstract class MMAEnemy extends MMAGameObject {
         //don't know if this does something
         this.mesh.geometry.dispose();
         this.healthBarMesh.geometry.dispose();
-        MMEnemyManager.getInstance().deleteEnemy(this);
-        MMTowerManager.getInstance().targetDead(this);
+        Game.managers.enemy.deleteEnemy(this);
+        Game.managers.tower.targetDead(this);
     }
 
     /**
@@ -73,7 +66,7 @@ export abstract class MMAEnemy extends MMAGameObject {
      */
     update(deltaTime: number) {
         if (this.calculateNewPath) {
-            this.path = MMPathFinder.getInstance().findPathByPosition(this.mesh.position);
+            this.path = Game.managers.pathFinder.findPathByPosition(this.mesh.position);
             this.path?.shift();
             this.calculateNewPath = false;
         }
@@ -83,7 +76,9 @@ export abstract class MMAEnemy extends MMAGameObject {
         const enemyPosition: Vector3 = this.mesh.position;
         const closestNodePosition: Vector3 = this.path[0].center;
 
-        if (enemyPosition.distanceTo(closestNodePosition) < CELL_HEIGHT / 2) {
+        const cellHeight = Game.managers.grid.getCellSize().y;
+
+        if (enemyPosition.distanceTo(closestNodePosition) < cellHeight / 2) {
             this.path.shift();
             return;
         }
@@ -99,16 +94,16 @@ export abstract class MMAEnemy extends MMAGameObject {
      * Add the enemy and its associated health bar to the scene.
      */
     addMeToScene() {
-        this.sceneManager.addToScene(this.mesh);
-        this.sceneManager.addToScene(this.healthBarMesh);
+        Game.managers.scene.addToScene(this.mesh);
+        Game.managers.scene.addToScene(this.healthBarMesh);
     }
 
     /**
      * Remove the enemy and its associated health bar from the scene.
      */
     removeMeFromScene() {
-        this.sceneManager.removeFromScene(this.mesh);
-        this.sceneManager.removeFromScene(this.healthBarMesh);
+        Game.managers.scene.removeFromScene(this.mesh);
+        Game.managers.scene.removeFromScene(this.healthBarMesh);
     }
 
 

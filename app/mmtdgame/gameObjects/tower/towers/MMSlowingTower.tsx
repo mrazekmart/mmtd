@@ -1,9 +1,10 @@
 import {MMATower} from "../MMATower";
 import * as THREE from "three";
 import {Vector2, Vector3} from "three";
-import {MMProjectileManager, MMProjectileType} from "../../projectiles/MMProjectileManager";
+import {MMProjectileType} from "../../projectiles/MMProjectileManager";
 import {MMAEnemy} from "../../enemies/MMAEnemy";
 import {MMSlowingProjectile} from "../../projectiles/projectiles/MMSlowingProjectile";
+import Game from "@app/mmtdgame/MMTDGame";
 
 export class MMSlowingTower extends MMATower {
 
@@ -37,7 +38,7 @@ export class MMSlowingTower extends MMATower {
             const closestEnemy = this.findClosestEnemy();
             if (closestEnemy) {
                 this.target = closestEnemy;
-                this.slowingProjectile = MMProjectileManager.getInstance().createProjectile(
+                this.slowingProjectile = Game.managers.projectile.createProjectile(
                     MMProjectileType.SlowingLaser, this.weaponMesh.position, this.target) as MMSlowingProjectile;
                 this.target.speed *= this.slowingTo;
             }

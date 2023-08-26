@@ -3,7 +3,7 @@ export class MMEconomyManager {
 
     globalMoney: number = 100;
 
-    private constructor() {
+    constructor() {
     }
 
     public static getInstance(): MMEconomyManager {

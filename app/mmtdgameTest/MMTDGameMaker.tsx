@@ -10,7 +10,7 @@ export class MMTDGameMaker {
     cellSize!: Vector2;
     grid!: MMGridCell[][];
 
-    private constructor() {
+    constructor() {
     }
 
     public static getInstance(): MMTDGameMaker {
@@ -22,10 +22,10 @@ export class MMTDGameMaker {
     }
 
     public static build(gridSize: Vector2, cellSize: Vector2) {
-        this.getInstance().gridSize = gridSize;
-        this.getInstance().cellSize = cellSize;
-        this.getInstance().grid = new Array(gridSize.x).fill(undefined).map(() => new Array(gridSize.y).fill(undefined));
-        this.getInstance().createGrid(this.getInstance().gridSize, this.getInstance().cellSize);
+        this.gridSize = gridSize;
+        this.cellSize = cellSize;
+        this.grid = new Array(gridSize.x).fill(undefined).map(() => new Array(gridSize.y).fill(undefined));
+        this.createGrid(this.gridSize, this.cellSize);
         return this.getInstance();
     }
 
@@ -41,8 +41,8 @@ export class MMTDGameMaker {
     addMeToScene() {
         for (let i = 0; i < this.grid.length; i++) {
             for (let j = 0; j < this.grid[i].length; j++) {
-                MMTDSceneManager.getInstance().scene.add(this.grid[i][j].gridMesh.mesh);
-                MMTDSceneManager.getInstance().scene.add(this.grid[i][j].gridMesh.lineMesh);
+                Game.managers.scene.scene.add(this.grid[i][j].gridMesh.mesh);
+                Game.managers.scene.scene.add(this.grid[i][j].gridMesh.lineMesh);
             }
         }
     }

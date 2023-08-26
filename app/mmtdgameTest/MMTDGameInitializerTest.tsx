@@ -27,7 +27,7 @@ export const CELL_HEIGHT = CANVAS_HEIGHT / GRID_SIZE_HEIGHT;
 
 export function initializeThreeGrid(containerID: string, size: number): void {
 
-    const scene: THREE.Scene = MMTDSceneManager.getInstance().scene;
+    const scene: THREE.Scene = Game.managers.scene.scene;
 
     const canvasWidth = CANVAS_WIDTH;
     const canvasHeight = CANVAS_HEIGHT;
@@ -161,7 +161,7 @@ export function initializeThreeGrid(containerID: string, size: number): void {
                 if (!intersectedCustomObject) return;
 
                 if (intersectedCustomObject.gridMesh.gridType === MMGridType.Road) {
-                    MMEnemyManager.getInstance().createEnemy(intersectedCustomObject.gridMesh.mesh.position);
+                    Game.managers.enemy.createEnemy(intersectedCustomObject.gridMesh.mesh.position);
                 }
                 return;
             }
@@ -176,11 +176,11 @@ export function initializeThreeGrid(containerID: string, size: number): void {
                 //     const place = intersectedCustomObject.gridMesh.mesh.position.clone();
                 //     place.x += randomX;
                 //     place.y += randomY;
-                //     MMProjectileManager.getInstance().createProjectile(
+                //     Game.managers.projectile.createProjectile(
                 //         MMProjectileType.GravityShaper, place);
                 // }
                 if (intersectedCustomObject.gridMesh.gridType === MMGridType.Ground) {
-                    MMTowerManager.getInstance().createTower(4, intersectedCustomObject.gridPosition, intersectedCustomObject.gridMesh.mesh.position);
+                    Game.managers.tower.createTower(4, intersectedCustomObject.gridPosition, intersectedCustomObject.gridMesh.mesh.position);
                 }
 
 
@@ -190,7 +190,7 @@ export function initializeThreeGrid(containerID: string, size: number): void {
             if (intersectedCustomObject) {
                 intersectedCustomObject.changeGridType();
                 MMPathFinder.ofGrid(MMTDGameMaker.getInstance().grid);
-                MMEnemyManager.getInstance().calculateNewPath();
+                Game.managers.enemy.calculateNewPath();
             }
         }
     };
@@ -226,9 +226,9 @@ export function initializeThreeGrid(containerID: string, size: number): void {
     };
 
     const update = (deltaTime: number) => {
-        MMEnemyManager.getInstance().updateEnemies(deltaTime);
-        MMTowerManager.getInstance().updateTowers(deltaTime);
-        MMProjectileManager.getInstance().updateProjectiles(deltaTime);
+        Game.managers.enemy.updateEnemies(deltaTime);
+        Game.managers.tower.updateTowers(deltaTime);
+        Game.managers.projectile.updateProjectiles(deltaTime);
     }
 
     requestAnimationFrame(animate);

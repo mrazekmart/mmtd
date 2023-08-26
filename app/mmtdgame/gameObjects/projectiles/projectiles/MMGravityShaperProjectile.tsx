@@ -1,10 +1,8 @@
 import {MMAProjectile} from "../MMAProjectile";
 import * as THREE from "three";
 import {Vector3} from "three";
-import {MMEnemyManager} from "../../enemies/MMEnemyManager";
 import {MMAEnemy} from "../../enemies/MMAEnemy";
-import {MMTDSceneManager} from "../../../MMTDSceneManager";
-import {MMProjectileManager} from "../MMProjectileManager";
+import Game from "@app/mmtdgame/MMTDGame";
 
 export class MMGravityShaperProjectile extends MMAProjectile {
 
@@ -87,7 +85,7 @@ export class MMGravityShaperProjectile extends MMAProjectile {
 
     update(deltaTime: number) {
         //TODO: consider adding gravity effect also on other bullets
-        MMEnemyManager.getInstance().enemies.forEach((enemy: MMAEnemy) => {
+        Game.managers.enemy.enemies.forEach((enemy: MMAEnemy) => {
             if (this.projectileMesh.position.distanceTo(enemy.mesh.position) < this.range) {
 
                 const forceInDirection = new Vector3().subVectors(this.projectileMesh.position, enemy.mesh.position).normalize().multiplyScalar(this.gravityForce * deltaTime);
@@ -114,16 +112,16 @@ export class MMGravityShaperProjectile extends MMAProjectile {
         //don't know if this does something
         this.projectileMesh.geometry.dispose();
         this.discMesh.geometry.dispose();
-        MMProjectileManager.getInstance().deleteProjectile(this);
+        Game.managers.projectile.deleteProjectile(this);
     }
 
     addMeToScene() {
         super.addMeToScene();
-        MMTDSceneManager.getInstance().addToScene(this.discMesh);
+        Game.managers.scene.addToScene(this.discMesh);
     }
 
     removeMeFromScene() {
         super.removeMeFromScene();
-        MMTDSceneManager.getInstance().removeFromScene(this.discMesh);
+        Game.managers.scene.removeFromScene(this.discMesh);
     }
 }

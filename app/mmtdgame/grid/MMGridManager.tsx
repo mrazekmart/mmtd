@@ -1,43 +1,42 @@
 import {Vector2, Vector3} from 'three';
 
 import {MMGridCell} from "./MMGridCell";
-import {MMTDSceneManager} from "../MMTDSceneManager";
 import {gridPositionFromVector} from "../util/MMMathUtil";
 import {MMGridType} from "./MMGridMesh";
-import {MMGameObjectsManager} from "@app/mmtdgame/gameObjects/mapgameobject/MMGameObjectsManager";
+import Game from "@app/mmtdgame/MMTDGame";
+
+export const GRID_SIZE_WIDTH = 32;
+export const GRID_SIZE_HEIGHT = 18;
 
 export class MMGridManager {
-    private static instance: MMGridManager;
-    gridSize!: Vector2;
-    cellSize!: Vector2;
+    gridSize: Vector2 = new Vector2(GRID_SIZE_WIDTH, GRID_SIZE_HEIGHT);
     grid!: MMGridCell[][];
 
-    private constructor() {
+    constructor() {}
+
+    getGridSize(): Vector2 {
+        return this.gridSize.clone();
     }
 
-    public static getInstance(): MMGridManager {
-        if (!this.instance) {
-
-            this.instance = new MMGridManager();
-        }
-        return this.instance;
+    getCellSize(): Vector2 {
+        return new Vector2(
+            Math.round(Game.canvasSize.width / this.gridSize.x),
+            Math.round(Game.canvasSize.height / this.gridSize.y)
+        );
     }
 
-    public static build(gridSize: Vector2, cellSize: Vector2, grid: MMGridCell[][]) {
-        this.getInstance().gridSize = gridSize;
-        this.getInstance().cellSize = cellSize;
-        this.getInstance().grid = grid;
-        return this.getInstance();
+    build(grid: MMGridCell[][]) {
+        this.grid = grid;
     }
 
     addMeToScene() {
         this.grid.forEach(row => {
             row.forEach(cell => {
-                MMTDSceneManager.getInstance().scene.add(cell.gridMesh.mesh);
-                MMTDSceneManager.getInstance().scene.add(cell.gridMesh.lineMesh);
+                Game.managers.scene.scene.add(cell.gridMesh.mesh);
+                Game.managers.scene.scene.add(cell.gridMesh.lineMesh);
 
                 if (cell.gridMesh.gridType === MMGridType.Gold) {
-                    MMGameObjectsManager.getInstance().createGoldObject(cell.gridPosition, cell.gridMesh.mesh.position);
+                    Game.managers.gameObjects.createGoldObject(cell.gridPosition, cell.gridMesh.mesh.position);
                 }
             });
         });

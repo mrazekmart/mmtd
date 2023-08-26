@@ -20,6 +20,7 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
-    "@types/three": "^0.155.1"
+    "@types/three": "^0.155.1",
+    "stats.js": "^0.17.0"
   }
 }

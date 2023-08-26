@@ -1,6 +1,6 @@
 import {MMGridCell} from "../grid/MMGridCell";
 import {MMGridType} from "../grid/MMGridMesh";
-import {MMTowerManager} from "../gameObjects/tower/MMTowerManager";
+import Game from "@app/mmtdgame/MMTDGame";
 
 export class MMBuilderMode {
     private static instance: MMBuilderMode;
@@ -8,7 +8,7 @@ export class MMBuilderMode {
     isBuildingMode: boolean = false;
     towerToPlaceType!: number;
 
-    private constructor() {
+    constructor() {
     }
 
     public static getInstance(): MMBuilderMode {
@@ -29,7 +29,7 @@ export class MMBuilderMode {
 
     placeTower(intersectedCustomObject: MMGridCell) {
         if (intersectedCustomObject.gridMesh.gridType === MMGridType.Ground) {
-            MMTowerManager.getInstance().createTower(this.towerToPlaceType, intersectedCustomObject.gridPosition, intersectedCustomObject.gridMesh.mesh.position);
+            Game.managers.tower.createTower(this.towerToPlaceType, intersectedCustomObject.gridPosition, intersectedCustomObject.gridMesh.mesh.position);
         }
     }
 }

@@ -4,7 +4,7 @@ export class MMTDSceneManager {
     private static instance: MMTDSceneManager;
     scene: THREE.Scene;
 
-    private constructor() {
+    constructor() {
         this.scene = new THREE.Scene();
     }
 

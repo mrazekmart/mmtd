@@ -1,13 +1,11 @@
 import {MMAGameObject} from "@app/mmtdgame/gameObjects/MMAGameObject";
 import * as THREE from "three";
 import {Vector3} from "three";
-import {MMNode, MMPathFinder} from "@app/mmtdgame/grid/pathfinding/MMPathFinder";
+import {MMNode} from "@app/mmtdgame/grid/pathfinding/MMPathFinder";
 import {MMGridType} from "@app/mmtdgame/grid/MMGridMesh";
 import {MMMapGold} from "@app/mmtdgame/gameObjects/mapgameobject/mapgameobjects/MMMapGold";
-import {MMGameObjectsManager} from "@app/mmtdgame/gameObjects/mapgameobject/MMGameObjectsManager";
-import {MMTDSceneManager} from "@app/mmtdgame/MMTDSceneManager";
-import {CELL_HEIGHT} from "@app/mmtdgame/MMTDGameInitializer";
 import {MMEconomyManager} from "@app/mmtdgame/economy/MMEconomyManager";
+import Game from "@app/mmtdgame/MMTDGame";
 
 export class MMMiner extends MMAGameObject {
 
@@ -29,9 +27,6 @@ export class MMMiner extends MMAGameObject {
     maxGoldStored: number = 40;
 
     isGoingHome: boolean = false
-
-    mmGameObjectManager = MMGameObjectsManager.getInstance();
-    mmSceneManager = MMTDSceneManager.getInstance();
 
     constructor(grid: THREE.Vector2, position: THREE.Vector3) {
         super();
@@ -72,8 +67,9 @@ export class MMMiner extends MMAGameObject {
         }
 
         const closestNodePosition: Vector3 = this.path[this.currentPathNode].center;
+        const cellHeight = Game.managers.grid.getCellSize().y;
 
-        if (this.mesh.position.distanceTo(closestNodePosition) < CELL_HEIGHT / 2) {
+        if (this.mesh.position.distanceTo(closestNodePosition) < cellHeight / 2) {
             if (this.isGoingHome) {
                 this.currentPathNode--;
             } else {
@@ -88,7 +84,7 @@ export class MMMiner extends MMAGameObject {
     }
 
     addMeToScene() {
-        this.mmSceneManager.addToScene(this.mesh);
+        Game.managers.scene.addToScene(this.mesh);
     }
 
     private mine(deltaTime: number) {
@@ -122,12 +118,12 @@ export class MMMiner extends MMAGameObject {
     }
 
     findNewGold() {
-        this.path = MMPathFinder.getInstance().findPathToClosestBlockType(this.mesh.position, MMGridType.Gold);
+        this.path = Game.managers.pathFinder.findPathToClosestBlockType(this.mesh.position, MMGridType.Gold);
 
         if (!this.path) return;
 
         if (this.path.length > 0) {
-            this.mmGameObjectManager.goldObjects.forEach((goldObject: MMMapGold) => {
+            Game.managers.gameObjects.goldObjects.forEach((goldObject: MMMapGold) => {
                 if (!this.path) return;
 
                 if (this.path[this.path.length - 1]) {

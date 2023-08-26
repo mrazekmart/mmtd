@@ -1,6 +1,4 @@
-import {MMBasicEnemy} from "../gameObjects/enemies/enemies/MMBasicEnemy";
-import {MMPathFinder} from "../grid/pathfinding/MMPathFinder";
-import {MMEnemyManager} from "../gameObjects/enemies/MMEnemyManager";
+import Game from "@app/mmtdgame/MMTDGame";
 
 export class MMWaveManager {
     private static instance: MMWaveManager;
@@ -10,7 +8,7 @@ export class MMWaveManager {
     ]
     wave: number = 0;
 
-    private constructor() {
+    constructor() {
     }
 
     public static getInstance(): MMWaveManager {
@@ -35,7 +33,7 @@ export class MMWaveManager {
 
         const spawnEnemies = setInterval(() => {
 
-            MMEnemyManager.getInstance().createEnemy(MMPathFinder.getInstance().startNode.center);
+            Game.managers.enemy.createEnemy(Game.managers.pathFinder.startNode.center);
             counter++;
             if (counter >= maxSpawns) {
                 clearInterval(spawnEnemies);
