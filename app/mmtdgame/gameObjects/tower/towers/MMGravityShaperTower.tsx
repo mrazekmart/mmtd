@@ -14,13 +14,13 @@ export class MMGravityShaperTower extends MMATower {
         super();
         this.gridPosition = gridPosition;
 
-        const buildingGeometry = new THREE.BoxGeometry(60, 60, 2);
+        const buildingGeometry = new THREE.BoxGeometry(0.8, 0.8, 0.4);
         const buildingMaterial = new THREE.MeshBasicMaterial({color: 0xDC143C});
         const buildingMesh = new THREE.Mesh(buildingGeometry, buildingMaterial);
         buildingMesh.position.set(position.x, position.y, position.z);
         this.meshes.push(buildingMesh);
 
-        const weaponGeometry = new THREE.BoxGeometry(20, 20, 40);
+        const weaponGeometry = new THREE.BoxGeometry(0.3, 0.3, 0.9);
         const weaponMaterial = new THREE.MeshBasicMaterial({color: 0x008B8B});
         const weaponMesh = new THREE.Mesh(weaponGeometry, weaponMaterial);
         weaponMesh.position.set(position.x, position.y, position.z);

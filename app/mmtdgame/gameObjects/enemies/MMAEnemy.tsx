@@ -16,7 +16,7 @@ export abstract class MMAEnemy extends MMAGameObject {
     size!: Vector3;
 
     health: number = 100;
-    speed: number = 50;
+    speed: number = 1;
 
     protected constructor() {
         super();
@@ -76,9 +76,7 @@ export abstract class MMAEnemy extends MMAGameObject {
         const enemyPosition: Vector3 = this.mesh.position;
         const closestNodePosition: Vector3 = this.path[0].center;
 
-        const cellHeight = Game.managers.grid.getCellSize().y;
-
-        if (enemyPosition.distanceTo(closestNodePosition) < cellHeight / 2) {
+        if (enemyPosition.distanceTo(closestNodePosition) < 0.5) {
             this.path.shift();
             return;
         }
@@ -113,6 +111,6 @@ export abstract class MMAEnemy extends MMAGameObject {
     updateHealthBar() {
         this.healthBarMesh.scale.x = this.health / 100;
         const {x, y, z} = this.mesh.position;
-        this.healthBarMesh.position.set(x, y + 30, z);
+        this.healthBarMesh.position.set(x, y, z + 0.5);
     }
 }

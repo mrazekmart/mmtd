@@ -9,7 +9,7 @@ export abstract class MMAProjectile extends MMAGameObject {
     position!: Vector3;
     target!: Vector3;
     direction!: Vector3;
-    speed: number = 80;
+    speed: number = 1;
     lifetime: number = 4;
     damage: number = 10;
 

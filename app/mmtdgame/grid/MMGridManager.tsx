@@ -18,13 +18,6 @@ export class MMGridManager {
         return this.gridSize.clone();
     }
 
-    getCellSize(): Vector2 {
-        return new Vector2(
-            Math.round(Game.canvasSize.width / this.gridSize.x),
-            Math.round(Game.canvasSize.height / this.gridSize.y)
-        );
-    }
-
     build(grid: MMGridCell[][]) {
         this.grid = grid;
     }

@@ -60,7 +60,6 @@ export class MMPathFinder {
         let startNode: MMNode = {} as any;
         let endNode: MMNode = {} as any;
 
-        const cellSize = Game.managers.grid.getCellSize();
         const gridSize = Game.managers.grid.getGridSize();
 
         grid.forEach(row => {
@@ -73,9 +72,10 @@ export class MMPathFinder {
                         walkable: cell.gridMesh.walkable,
                         npcWalkable: cell.gridMesh.npcWalkable,
                         center: new Vector3(
-                            cell.gridPosition.x * cellSize.x - (gridSize.x * cellSize.x) / 2 + cellSize.x / 2,
-                            -cell.gridPosition.y * cellSize.y + (gridSize.y * cellSize.y) / 2 - cellSize.y / 2,
-                            0),
+                             cell.gridPosition.x - (gridSize.x) / 2 + 0.5,
+                            -cell.gridPosition.y + (gridSize.y) / 2 - 0.5,
+                            0
+                        ),
                         type: cell.gridMesh.gridType,
                     };
 

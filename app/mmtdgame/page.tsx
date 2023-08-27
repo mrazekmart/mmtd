@@ -10,12 +10,15 @@ const page = () => {
     useEffect(() => {
         Game.init({containerId: 'MMTDContainer'})
             .then(() => Game.run())
+
+        if (process.env.NODE_ENV === 'development')
+            window.game = Game;
     }, []);
 
     useEffect(() => {
         const pause = () => Game.pause();
         const resume = () => Game.resume();
-        
+
         window.addEventListener('blur', pause);
         window.addEventListener('focus', resume);
 

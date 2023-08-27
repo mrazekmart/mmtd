@@ -9,7 +9,7 @@ export class MMSpeedsterEnemy extends MMAEnemy {
 
     constructor(position: Vector3) {
         super();
-        const geometry = new THREE.BoxGeometry(30, 30, 30);
+        const geometry = new THREE.BoxGeometry(0.5, 0.5, 0.5);
         const material = new THREE.MeshBasicMaterial({color: 0x00FFFF});
         const newMesh = new THREE.Mesh(geometry, material);
 
@@ -22,7 +22,7 @@ export class MMSpeedsterEnemy extends MMAEnemy {
 
     update(deltaTime: number) {
         super.update(deltaTime);
-        this.speed += 0.04;
+        this.speed += 0.004;
     }
 
     takeDamage(damage: number) {
