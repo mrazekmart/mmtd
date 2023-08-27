@@ -2,7 +2,7 @@ import {MMAProjectile} from "../MMAProjectile";
 import {MMAEnemy} from "../../enemies/MMAEnemy";
 import * as THREE from "three";
 import {Vector3} from "three";
-import {MMTDSceneManager} from "../../../MMTDSceneManager";
+import MMTDGame from "@app/mmtdgame/MMTDGame";
 
 type Segment = [THREE.Vector3, THREE.Vector3];
 
@@ -12,8 +12,6 @@ export class MMLightingStrikeProjectile extends MMAProjectile {
 
     lightningSegments: THREE.Line[] = [];
 
-    sceneManager = MMTDSceneManager.getInstance();
-
     damage = 50;
 
     constructor(position: Vector3, targetEnemy: MMAEnemy) {
@@ -21,9 +19,9 @@ export class MMLightingStrikeProjectile extends MMAProjectile {
         this.position = position;
         this.targetEnemy = targetEnemy;
 
-        const material = new THREE.LineBasicMaterial({color: 0xFFFFFF, linewidth: 2});
+        const material = new THREE.LineBasicMaterial({color: 0xFFFFFF});
 
-        let lightningSegments: Segment[] = this.createLightningSegment(this.position, targetEnemy.mesh.position, 30, 3);
+        let lightningSegments: Segment[] = this.createLightningSegment(this.position, targetEnemy.mesh.position, 1, 3);
 
         lightningSegments.forEach(segment => {
             const geometry = new THREE.BufferGeometry().setFromPoints(segment);
@@ -39,22 +37,20 @@ export class MMLightingStrikeProjectile extends MMAProjectile {
     update(deltaTime: number) {
         this.time += deltaTime;
         if (this.time > 0.25) {
-            this.lightningSegments.forEach((segment: THREE.Line) => {
-                this.sceneManager.removeFromScene(segment);
-            });
+            this.removeMeFromScene();
             this.time = 0;
         }
     }
 
     addMeToScene() {
         this.lightningSegments.forEach((segment: THREE.Line) => {
-            this.sceneManager.addToScene(segment);
+            MMTDGame.managers.scene.addToScene(segment);
         })
     }
 
     removeMeFromScene() {
         this.lightningSegments.forEach((segment: THREE.Line) => {
-            this.sceneManager.removeFromScene(segment);
+            MMTDGame.managers.scene.removeFromScene(segment);
         })
     }
 

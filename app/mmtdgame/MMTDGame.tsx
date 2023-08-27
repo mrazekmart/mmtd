@@ -1,7 +1,6 @@
 "use client"
 
 import * as THREE from 'three';
-import {OrbitControls} from "three/examples/jsm/controls/OrbitControls";
 import {MMGridManager} from "./grid/MMGridManager";
 import {fetchMMGrid} from "./grid/MMMapLoader";
 import {MMPathFinder} from "./grid/pathfinding/MMPathFinder";
@@ -13,6 +12,8 @@ import {MMBuilderMode} from "./builder/MMBuilderMode";
 import {MMProjectileManager} from "@app/mmtdgame/gameObjects/projectiles/MMProjectileManager";
 import {MMGameObjectsManager} from "@app/mmtdgame/gameObjects/mapgameobject/MMGameObjectsManager";
 import {MMWaveManager} from "@app/mmtdgame/waves/MMWaveManager";
+// @ts-ignore
+import {OrbitControls} from "three/examples/jsm/controls/OrbitControls";
 
 class Game extends THREE.EventDispatcher {
     lastFrameTime!: number
@@ -23,6 +24,8 @@ class Game extends THREE.EventDispatcher {
     canvasSize!: { width: number, height: number }
     scene!: THREE.Scene
     raycaster!: THREE.Raycaster
+    controls!: OrbitControls;
+
 
     meshes: any = [] // Todo (Tom): Remove this
 
@@ -46,12 +49,12 @@ class Game extends THREE.EventDispatcher {
         this.lastFrameTime = 0
 
         // this.canvasSize = { width: window.innerWidth, height: window.innerHeight }
-        this.canvasSize = { width: 2560, height: 1332 } // Todo (Tom): Remove this
+        this.canvasSize = {width: 2560, height: 1332} // Todo (Tom): Remove this
 
         // Todo (Tom): Move this to a new MMTDRenderer class
-        this.renderer = new THREE.WebGLRenderer({ antialias: true })
+        this.renderer = new THREE.WebGLRenderer({antialias: true})
         this.renderer.setSize(this.canvasSize.width, this.canvasSize.height)
-        
+
         this.camera = new THREE.PerspectiveCamera(75, this.canvasSize.width / this.canvasSize.height, 0.1, 1000)
         this.camera.position.z = 10
         this.camera.position.y = -7
@@ -161,7 +164,7 @@ class Game extends THREE.EventDispatcher {
             this.managers.grid.build(mmCells)
             this.managers.grid.addMeToScene()
             this.meshes = this.managers.grid.grid.flat().map((cell: MMGridCell) => cell.gridMesh.mesh)
-            
+
             this.managers.pathFinder.ofGrid(this.managers.grid.grid)
 
         } catch (error) {
