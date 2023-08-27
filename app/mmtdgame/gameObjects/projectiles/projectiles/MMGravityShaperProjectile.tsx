@@ -7,8 +7,8 @@ import Game from "@app/mmtdgame/MMTDGame";
 export class MMGravityShaperProjectile extends MMAProjectile {
 
     discMesh!: THREE.Mesh;
-    range: number = 200;
-    gravityForce: number = 200;
+    range: number = 2.5;
+    gravityForce: number = 2.5;
     damage = 0.1;
 
     constructor(position: Vector3, target: Vector3) {
@@ -21,15 +21,15 @@ export class MMGravityShaperProjectile extends MMAProjectile {
         this.projectileMesh = new THREE.Mesh(projectileGeometry, projectileMaterial);
         this.projectileMesh.position.set(position.x, position.y, position.z);
 
-        // const discGeometry = new THREE.CircleGeometry(this.range, 32);
-        // const discMaterial = new THREE.MeshBasicMaterial({
-        //     color: 0xFFB6C1,
-        //     transparent: true,
-        //     opacity: 0.5
-        // });
-        // this.discMesh = new THREE.Mesh(discGeometry, discMaterial);
-        // this.discMesh.rotation.z = -Math.PI / 2;
-        // this.discMesh.position.set(position.x, position.y, position.z)
+        const discGeometry = new THREE.CircleGeometry(this.range, 32);
+        const discMaterial = new THREE.MeshBasicMaterial({
+            color: 0xFFB6C1,
+            transparent: true,
+            opacity: 0.5
+        });
+        this.discMesh = new THREE.Mesh(discGeometry, discMaterial);
+        this.discMesh.rotation.z = -Math.PI / 2;
+        this.discMesh.position.set(position.x, position.y, position.z + 0.1);
 
         const vertexShader = `
           uniform float time;
@@ -40,7 +40,7 @@ export class MMGravityShaperProjectile extends MMAProjectile {
             
             float distFromCenter = distance(vUv, vec2(0.5, 0.5));
             
-            float ripple = sin(3.0 * distFromCenter + (time)) * 10.0;
+            float ripple = sin(distFromCenter + (time)) * 10.0;
             
             vec3 newPosition = position;
             newPosition.z += ripple;
@@ -64,20 +64,21 @@ export class MMGravityShaperProjectile extends MMAProjectile {
           }
         `;
 
+        //
+        // const gravityFieldGeometry = new THREE.RingGeometry(0, this.range, 64);
+        // const gravityFieldMaterial = new THREE.ShaderMaterial({
+        //     vertexShader: vertexShader,
+        //     fragmentShader: fragmentShader,
+        //     uniforms: {
+        //         time: {value: 0}
+        //     },
+        //     side: THREE.DoubleSide,
+        //     transparent: true
+        // });
+        // this.discMesh = new THREE.Mesh(gravityFieldGeometry, gravityFieldMaterial);
+        // this.discMesh.rotation.z = -Math.PI / 2;
+        // this.discMesh.position.set(position.x, position.y, position.z)
 
-        const gravityFieldGeometry = new THREE.RingGeometry(0, this.range, 64);
-        const gravityFieldMaterial = new THREE.ShaderMaterial({
-            vertexShader: vertexShader,
-            fragmentShader: fragmentShader,
-            uniforms: {
-                time: {value: 0}
-            },
-            side: THREE.DoubleSide,
-            transparent: true
-        });
-        this.discMesh = new THREE.Mesh(gravityFieldGeometry, gravityFieldMaterial);
-        this.discMesh.rotation.z = -Math.PI / 2;
-        this.discMesh.position.set(position.x, position.y, position.z)
         this.direction = new THREE.Vector3().subVectors(target, this.position).normalize();
 
         this.addMeToScene();
@@ -89,17 +90,16 @@ export class MMGravityShaperProjectile extends MMAProjectile {
             if (this.projectileMesh.position.distanceTo(enemy.mesh.position) < this.range) {
 
                 const forceInDirection = new Vector3().subVectors(this.projectileMesh.position, enemy.mesh.position).normalize().multiplyScalar(this.gravityForce * deltaTime);
-                // const forceInDirection = new Vector3().subVectors(this.position, enemy.mesh.position).multiplyScalar(this.gravityForce * deltaTime);
                 enemy.addForce(forceInDirection);
                 enemy.takeDamage(this.damage);
             }
         });
-        this.gravityForce -= 100 * (deltaTime / 1.5);
+        this.gravityForce -= (deltaTime / 1.5);
         if (this.gravityForce < 0) {
             this.destroy();
         }
 
-        (this.discMesh.material as THREE.ShaderMaterial).uniforms.time.value += deltaTime;
+        //(this.discMesh.material as THREE.ShaderMaterial).uniforms.time.value += deltaTime;
 
         const step = this.direction.clone().multiplyScalar(this.speed * deltaTime);
         this.projectileMesh.position.add(step);
@@ -109,7 +109,6 @@ export class MMGravityShaperProjectile extends MMAProjectile {
 
     destroy() {
         this.removeMeFromScene();
-        //don't know if this does something
         this.projectileMesh.geometry.dispose();
         this.discMesh.geometry.dispose();
         Game.managers.projectile.deleteProjectile(this);

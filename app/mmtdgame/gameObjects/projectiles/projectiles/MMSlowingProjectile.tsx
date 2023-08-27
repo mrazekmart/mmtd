@@ -16,7 +16,7 @@ export class MMSlowingProjectile extends MMAProjectile {
         const distance = position.distanceTo(targetEnemy.mesh.position);
         this.initialDistance = distance;
 
-        const cylinderGeometry = new THREE.CylinderGeometry(1, 1, distance, 8, 1, false);
+        const cylinderGeometry = new THREE.CylinderGeometry(0.03, 0.03, distance, 8, 1, false);
         cylinderGeometry.rotateX(Math.PI / 2); // Rotate the cylinder to point along the Z-axis
         const cylinderMaterial = new THREE.MeshBasicMaterial({color: 0xff0000});
         this.projectileMesh = new THREE.Mesh(cylinderGeometry, cylinderMaterial);

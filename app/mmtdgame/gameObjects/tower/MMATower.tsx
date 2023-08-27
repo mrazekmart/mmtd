@@ -12,7 +12,7 @@ export abstract class MMATower extends MMAGameObject {
     gridPosition!: Vector2;
     target!: MMAEnemy | undefined;
 
-    weaponRange: number = 200;
+    weaponRange: number = 3;
     weaponFireRate: number = 2; // shots per sec
     timeToShoot: number = 1 / this.weaponFireRate;
     currentTimeToShoot: number = this.timeToShoot;

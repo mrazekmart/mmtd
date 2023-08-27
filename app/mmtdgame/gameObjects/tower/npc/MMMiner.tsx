@@ -32,7 +32,7 @@ export class MMMiner extends MMAGameObject {
         super();
         this.startGridPosition = grid;
 
-        const minerGeometry = new THREE.BoxGeometry(0.2, 0.2, 0.05);
+        const minerGeometry = new THREE.BoxGeometry(0.2, 0.2, 0.15);
         const minerMaterial = new THREE.MeshBasicMaterial({color: 0xA52A2A});
         const minerMesh = new THREE.Mesh(minerGeometry, minerMaterial);
         minerMesh.position.set(position.x, position.y, position.z);

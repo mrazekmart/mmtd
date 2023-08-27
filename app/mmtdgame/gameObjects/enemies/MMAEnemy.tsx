@@ -67,6 +67,7 @@ export abstract class MMAEnemy extends MMAGameObject {
     update(deltaTime: number) {
         if (this.calculateNewPath) {
             this.path = Game.managers.pathFinder.findPathByPosition(this.mesh.position);
+            //it behaves better with the first node removed
             this.path?.shift();
             this.calculateNewPath = false;
         }
