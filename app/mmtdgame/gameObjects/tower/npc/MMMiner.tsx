@@ -15,7 +15,7 @@ export class MMMiner extends MMAGameObject {
 
     startGridPosition!: THREE.Vector2;
 
-    speed: number = 60;
+    speed: number = 0.8;
     miningSpeed: number = 8;
     timeToMine: number = 1 / this.miningSpeed;
     currentTimeToMine: number = this.timeToMine;
@@ -32,7 +32,7 @@ export class MMMiner extends MMAGameObject {
         super();
         this.startGridPosition = grid;
 
-        const minerGeometry = new THREE.BoxGeometry(10, 10, 2);
+        const minerGeometry = new THREE.BoxGeometry(0.2, 0.2, 0.05);
         const minerMaterial = new THREE.MeshBasicMaterial({color: 0xA52A2A});
         const minerMesh = new THREE.Mesh(minerGeometry, minerMaterial);
         minerMesh.position.set(position.x, position.y, position.z);
@@ -67,9 +67,8 @@ export class MMMiner extends MMAGameObject {
         }
 
         const closestNodePosition: Vector3 = this.path[this.currentPathNode].center;
-        const cellHeight = Game.managers.grid.getCellSize().y;
 
-        if (this.mesh.position.distanceTo(closestNodePosition) < cellHeight / 2) {
+        if (this.mesh.position.distanceTo(closestNodePosition) < 0.5) {
             if (this.isGoingHome) {
                 this.currentPathNode--;
             } else {

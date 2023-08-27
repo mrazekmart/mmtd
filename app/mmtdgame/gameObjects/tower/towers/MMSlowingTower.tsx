@@ -9,7 +9,7 @@ import Game from "@app/mmtdgame/MMTDGame";
 export class MMSlowingTower extends MMATower {
 
     slowingProjectile!: MMSlowingProjectile;
-    slowingTo: number = 0.2;
+    slowingTo: number = 0.01;
 
     weaponMesh: THREE.Mesh;
 

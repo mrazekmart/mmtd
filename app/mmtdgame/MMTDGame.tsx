@@ -1,6 +1,7 @@
 "use client"
 
 import * as THREE from 'three';
+import {OrbitControls} from "three/examples/jsm/controls/OrbitControls";
 import {MMGridManager} from "./grid/MMGridManager";
 import {fetchMMGrid} from "./grid/MMMapLoader";
 import {MMPathFinder} from "./grid/pathfinding/MMPathFinder";
@@ -52,8 +53,11 @@ class Game extends THREE.EventDispatcher {
         this.renderer.setSize(this.canvasSize.width, this.canvasSize.height)
         
         this.camera = new THREE.PerspectiveCamera(75, this.canvasSize.width / this.canvasSize.height, 0.1, 1000)
-        this.camera.position.z = 1000
+        this.camera.position.z = 10
+        this.camera.position.y = -7
         this.camera.lookAt(new THREE.Vector3(0, 0, 0))
+
+        this.controls = new OrbitControls(this.camera, this.renderer.domElement)
 
         this.raycaster = new THREE.Raycaster()
 

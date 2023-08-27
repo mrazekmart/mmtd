@@ -11,13 +11,13 @@ export class MMGoldMinerTower extends MMATower {
         super();
         this.gridPosition = gridPosition;
 
-        const buildingGeometry = new THREE.CircleGeometry(30, 16);
+        const buildingGeometry = new THREE.SphereGeometry(0.4, 16);
         const buildingMaterial = new THREE.MeshBasicMaterial({color: 0x008000});
         const buildingMesh = new THREE.Mesh(buildingGeometry, buildingMaterial);
         buildingMesh.position.set(position.x, position.y, position.z);
         this.meshes.push(buildingMesh)
 
-        const weaponGeometry = new THREE.BoxGeometry(15, 15, 10);
+        const weaponGeometry = new THREE.BoxGeometry(0.2, 0.2, 0.8);
         const weaponMaterial = new THREE.MeshBasicMaterial({color: 0x4B0082});
         const weaponMesh = new THREE.Mesh(weaponGeometry, weaponMaterial);
         weaponMesh.position.set(position.x, position.y, position.z);

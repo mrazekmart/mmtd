@@ -6,7 +6,7 @@ export class MMBasicEnemy extends MMAEnemy {
 
     constructor(position: Vector3) {
         super();
-        this.size = new Vector3(30, 30, 30)
+        this.size = new Vector3(0.5, 0.5, 0.5)
         const geometry = new THREE.BoxGeometry(this.size.x, this.size.y, this.size.z);
         const material = new THREE.MeshBasicMaterial({color: 0x000000});
         this.mesh = new THREE.Mesh(geometry, material);
@@ -17,13 +17,13 @@ export class MMBasicEnemy extends MMAEnemy {
         // this.mesh.userData.mmobjectType = MMGameObjectType.MMEnemy;
 
         //just random speed, why not
-        this.speed = Math.random() * 100 + 50;
+        this.speed = Math.random() * 1 + 0.5;
 
 
-        const healthBarGeometry = new THREE.PlaneGeometry(30, 3);
+        const healthBarGeometry = new THREE.PlaneGeometry(0.3, 0.1);
         const healthBarMaterial = new THREE.MeshBasicMaterial({ color: 0x00FF00 });
         this.healthBarMesh = new THREE.Mesh(healthBarGeometry, healthBarMaterial);
-        this.healthBarMesh.position.set(position.x, position.y + 30, position.z);
+        this.healthBarMesh.position.set(position.x, position.y + 0.2, position.z);
 
         this.addMeToScene();
 

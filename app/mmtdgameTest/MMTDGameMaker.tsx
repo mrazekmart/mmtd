@@ -1,13 +1,11 @@
 import {Vector2} from 'three';
 import {MMGridCell} from "@app/mmtdgame/grid/MMGridCell";
 import {MMGridType} from "@app/mmtdgame/grid/MMGridMesh";
-import {MMTDSceneManager} from "@app/mmtdgame/MMTDSceneManager";
-
+import Game from "@app/mmtdgame/MMTDGame";
 
 export class MMTDGameMaker {
     private static instance: MMTDGameMaker;
     gridSize!: Vector2;
-    cellSize!: Vector2;
     grid!: MMGridCell[][];
 
     constructor() {
@@ -21,19 +19,17 @@ export class MMTDGameMaker {
         return this.instance;
     }
 
-    public static build(gridSize: Vector2, cellSize: Vector2) {
+    build(gridSize: Vector2, _removed: Vector2) {
         this.gridSize = gridSize;
-        this.cellSize = cellSize;
         this.grid = new Array(gridSize.x).fill(undefined).map(() => new Array(gridSize.y).fill(undefined));
-        this.createGrid(this.gridSize, this.cellSize);
-        return this.getInstance();
+        this.createGrid(this.gridSize, _removed);
     }
 
-    createGrid(gridSize: Vector2, cellSize: Vector2) {
+    createGrid(gridSize: Vector2, _removed: Vector2) {
 
         for (let i = 0; i < gridSize.x; i++) {
             for (let j = 0; j < gridSize.y; j++) {
-                this.grid[i][j] = new MMGridCell(new Vector2(i, j), cellSize, MMGridType.Ground, true);
+                this.grid[i][j] = new MMGridCell(new Vector2(i, j), _removed, MMGridType.Ground, true);
             }
         }
     }

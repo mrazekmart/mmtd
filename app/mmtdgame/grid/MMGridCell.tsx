@@ -6,29 +6,27 @@ import {MMGridMesh, MMGridType} from "./MMGridMesh";
 
 export class MMGridCell {
     gridPosition: Vector2;
-    cellSize: Vector2;
     gridMesh: MMGridMesh;
 
 
-    constructor(gridPosition: Vector2, cellSize: Vector2, gridType: MMGridType, walkable: boolean) {
+    constructor(gridPosition: Vector2, _removed: Vector2, gridType: MMGridType, walkable: boolean) {
+        this.gridPosition = gridPosition;
 
-        const geometry = new THREE.PlaneGeometry(cellSize.x, cellSize.y);
+        const geometry = new THREE.PlaneGeometry(1, 1);
         const material = new THREE.MeshBasicMaterial({color: 0x643506, side: THREE.DoubleSide});
-        const newMesh = new THREE.Mesh(geometry, material);
 
         const position: Vector3 = new Vector3(
-            gridPosition.x * cellSize.x - (GRID_SIZE_WIDTH * cellSize.x) / 2 + cellSize.x / 2,
-            -gridPosition.y * cellSize.y + (GRID_SIZE_HEIGHT * cellSize.y) / 2 - cellSize.y / 2,
-            0);
-        newMesh.position.set(position.x, position.y, position.z);
-
+             gridPosition.x - (GRID_SIZE_WIDTH) / 2 + 0.5,
+            -gridPosition.y + (GRID_SIZE_HEIGHT) / 2 - 0.5,
+            0
+        );
 
         const edges = new THREE.EdgesGeometry(geometry);
         const line = new THREE.LineSegments(edges, new THREE.LineBasicMaterial({color: 0x000000}));
         line.position.set(position.x, position.y, position.z);
 
-        this.gridPosition = gridPosition;
-        this.cellSize = cellSize;
+        const newMesh = new THREE.Mesh(geometry, material);
+        newMesh.position.set(position.x, position.y, position.z);
 
         this.gridMesh = new MMGridMesh(newMesh, line, gridType, walkable);
         this.gridMesh.applyMaterial();

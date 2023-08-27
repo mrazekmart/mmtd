@@ -16,7 +16,7 @@ export class MMGravityShaperProjectile extends MMAProjectile {
         this.position = position;
         this.target = target
 
-        const projectileGeometry = new THREE.SphereGeometry(10, 10, 10);
+        const projectileGeometry = new THREE.SphereGeometry(0.1, 10);
         const projectileMaterial = new THREE.MeshBasicMaterial({color: 0x000000});
         this.projectileMesh = new THREE.Mesh(projectileGeometry, projectileMaterial);
         this.projectileMesh.position.set(position.x, position.y, position.z);

@@ -8,12 +8,12 @@ export class MMBasicProjectile extends MMAProjectile{
         this.position = position;
         this.target = target;
 
-        const projectileGeometry = new THREE.BoxGeometry(10, 10, 10);
+        const projectileGeometry = new THREE.BoxGeometry(0.05, 0.05, 0.05);
         const projectileMaterial = new THREE.MeshBasicMaterial({color: 0x8A2BE2});
         const projectileMesh = new THREE.Mesh(projectileGeometry, projectileMaterial);
         projectileMesh.position.set(position.x, position.y, position.z);
 
-        this.speed = 200;
+        this.speed = 4;
 
         this.projectileMesh = projectileMesh;
         this.direction = new THREE.Vector3().subVectors(this.target, this.position).normalize();
